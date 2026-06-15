@@ -167,8 +167,8 @@ body.detail-open .detail-panel {
   border: 3px solid white;}
 
 body.tag-open .tag-toggle span {
-  border-color: black;
-  border-radius: 50%;}
+  background: black;}
+
 
 .keyword-map {
   position: relative;
