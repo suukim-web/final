@@ -1,0 +1,42 @@
+.choose-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.choose-panel {
+  position: relative;
+  width: 50vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.choose-panel img {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center center;
+
+  transition: opacity .25s ease;
+}
+
+.default-image {
+  opacity: 1;
+}
+
+.hover-image {
+  opacity: 0;
+}
+
+.choose-panel:hover .default-image {
+  opacity: 0;
+}
+
+.choose-panel:hover .hover-image {
+  opacity: 1;
+}

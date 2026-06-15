@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Noto+Serif+KR:wght@500;700;900&display=swap");
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --cream: #fff1c7;
+  --yellow: #f4ff00;
+
+  --serif-en: "Playfair Display", serif;
+  --serif-kr: "Noto Serif KR", serif;
+}
+
+body {
+  font-family: var(--serif-en);
+  color: var(--black);
+  background: var(--white);
+}
+
+.page {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.site-title {
+  font-family: var(--serif-en);
+  font-weight: 900;
+  line-height: 0.88;
+  letter-spacing: -0.05em;
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--black);
+  font-size: 30px;
+  line-height: 1;
+  padding: 12px 0;
+}
+
+.marquee span {
+  display: inline-block;
+  animation: marquee 13s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.arrow-circle {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 58px;
+  line-height: 1;
+}
