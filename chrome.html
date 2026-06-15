@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Chrome Pop Telly | Ununifying Minds</title>
+
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/common.css" />
+  <link rel="stylesheet" href="./css/playlist.css" />
+</head>
+
+<body>
+  <main class="playlist-page chrome-theme">
+    <img class="playlist-bg" src="./img/curation/chrome/bg2.jpg" alt="" />
+
+    <section class="playlist-visual">
+      <div class="big-vinyl">
+        <img class="big-title" src="./img/curation/chrome/title.svg" alt="Chrome Pop Telly" />
+        <img class="big-cover" src="./img/curation/chrome/cover.jpg" alt="" />
+        <span class="big-play">▷</span>
+      </div>
+
+      <div class="orbit-track-list chrome-list">
+        <button class="track t1 orange" data-song="super-duper">Super Duper</button>
+        <button class="track t2 green" data-song="ineedyourlove">I Need Your Love</button>
+        <button class="track t3 yellow" data-song="themost">The Most Beautiful Girl</button>
+        <button class="track t4 brown" data-song="wantingyou">I’m Just Wanting You</button>
+        <button class="track t5 cyan" data-song="lover">I Wanna Be Your Lover</button>
+        <button class="track t6 pink" data-song="lefreak">Le Freak</button>
+        <button class="track t7 red" data-song="youhavent">You Haven’t Done Nothin’</button>
+        <button class="track t8 magenta" data-song="alldaysucker">All Day Sucker</button>
+        <button class="track t9 red" data-song="ngiculela">Ngiculela-Es Una Historia</button>
+        <button class="track t10 orange" data-song="passthedutchie">Pass The Dutchie</button>
+        <button class="track t11 blue" data-song="iwantyou">I Want You Back</button>
+        <button class="track t12 black" data-song="upsidedown">Upside Down</button>
+        <button class="track t13 red" data-song="sexualhealing">Sexual Healing</button>
+      </div>
+    </section>
+
+    <div class="detail-overlay">
+      <div class="aura-third"></div>
+    </div>
+
+    <aside class="detail-panel" aria-hidden="true">
+      <div class="detail-marquee">
+        <button class="play-button" type="button">▶</button>
+
+        <div class="marquee-track">
+          <span>START START START START START START START START START&nbsp;&nbsp;</span>
+          <span>START START START START START START START START START&nbsp;&nbsp;</span>
+        </div>
+
+        <audio id="detail-audio"></audio>
+      </div>
+
+      <div class="detail-main">
+        <img class="detail-cover" src="" alt="" />
+
+        <div class="detail-info">
+          <h2></h2>
+          <p></p>
+        </div>
+
+        <a class="detail-arrow" href="#" target="_blank">→</a>
+      </div>
+
+      <div class="detail-tags"></div>
+      <div class="detail-text"></div>
+    </aside>
+  </main>
+
+  <script src="./js/playlist.js"></script>
+</body>
+</html>
