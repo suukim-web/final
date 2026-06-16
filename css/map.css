@@ -169,7 +169,6 @@ body.detail-open .detail-panel {
 body.tag-open .tag-toggle span {
   background: black;}
 
-
 .keyword-map {
   position: relative;
   width: 100vw;
@@ -247,28 +246,108 @@ body.tag-open .tag-toggle span {
 .song-29 { left: 73vw; top: 89vh; }
 .song-30 { left: 83vw; top: 87vh; }
 
-.song-31 { left: 48vw; top: 104vh; }
+.song-31 { left: 48vw; top: 100vh; }
 .song-32 { left: 51vw; top: 97vh; }
 .song-33 { left: 50vw; top: 90vh; }
 .song-34 { left: 48vw; top: 93vh; }
 .song-35 { left: 49vw; top: 118vh; }
 .song-36 { left: 54vw; top: 110vh; }
 
-.song-37 { left: 33vw; top: 92vh; }
-.song-38 { left: 41vw; top: 103vh; }
-.song-39 { left: 52vw; top: 108vh; }
-.song-40 { left: 64vw; top: 98vh; }
-.song-41 { left: 62vw; top: 103vh; }
-.song-42 { left: 64vw; top: 105vh; }
-.song-43 { left: 67vw; top: 93vh; }
-.song-44 { left: 68vw; top: 100vh; }
-.song-45 { left: 76vw; top: 95vh; }
-.song-46 { left: 78vw; top: 103vh; }
-.song-47 { left: 83vw; top: 105vh; }
-.song-48 { left: 75vw; top: 113vh; }
-.song-49 { left: 77vw; top: 121vh; }
-.song-50 { left: 78vw; top: 125vh; }
-.song-51 { left: 79vw; top: 129vh; }
+/* 아래쪽 키워드 추가/보정 */
+
+.song-37 {
+  left: 29vw;
+  top: 80vh;
+}
+
+.song-38 {
+  left: 39vw;
+  top: 95vh;
+}
+
+.song-39 {
+  left: 53vw;
+  top: 105vh;
+}
+
+.song-40 {
+  left: 64vw;
+  top: 93vh;
+}
+
+.song-41 {
+  left: 66vw;
+  top: 101vh;
+}
+
+.song-42 {
+  left: 68vw;
+  top: 108vh;
+}
+
+.song-43 {
+  left: 72vw;
+  top: 104vh;
+}
+
+.song-44 {
+  left: 73vw;
+  top: 99vh;
+}
+
+.song-45 {
+  left: 78vw;
+  top: 99vh;
+}
+
+.song-46 {
+  left: 82vw;
+  top: 106vh;
+}
+
+.song-47 {
+  left: 86vw;
+  top: 113vh;
+}
+
+.song-48 {
+  left: 73vw;
+  top: 154vh;
+}
+
+.song-49 {
+  left: 77vw;
+  top: 136vh;
+}
+
+.song-50 {
+  left: 78vw;
+  top: 143vh;
+}
+
+.song-51 {
+  left: 79vw;
+  top: 129vh;
+}
+
+.song-52 { left: 18vw; top: 68vh; }
+.song-53 { left: 26vw; top: 92vh; }
+.song-54 { left: 39vw; top: 76vh; }
+.song-55 { left: 48vw; top: 122vh; }
+.song-56 { left: 58vw; top: 118vh; }
+.song-57 { left: 68vw; top: 72vh; }
+.song-58 { left: 76vw; top: 98vh; }
+.song-59 { left: 87vw; top: 83vh; }
+.song-60 { left: 22vw; top: 120vh; }
+.song-61 { left: 34vw; top: 132vh; }
+.song-62 { left: 47vw; top: 139vh; }
+.song-63 { left: 61vw; top: 96vh; }
+.song-64 { left: 72vw; top: 127vh; }
+.song-65 { left: 84vw; top: 133vh; }
+.song-66 { left: 91vw; top: 111vh; }
+
+
+
 
 .map-img {
   transition: filter 0.25s ease;
