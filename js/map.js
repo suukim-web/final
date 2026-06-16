@@ -460,7 +460,7 @@ document.addEventListener("DOMContentLoaded", function () {
         Indiana</span> 지역에서 활동했던 소울 뮤지션 
         <span class="en">Billy Foster</span>의 곡으로, 후에 지역 소울 
         음악을 재조명하는 컴필레이션 음반 
-        <span class="en"><Skyway Soul: Gary, Indiana></span>를 
+        <span class="en">[Skyway Soul: Gary, Indiana]</span>를 
         통해 다시 알려졌다.</p>
         <p>
         <span class="en">Billy Foster</span>는 전국적인 명성을 얻은 
