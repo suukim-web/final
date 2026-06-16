@@ -364,7 +364,7 @@ document.addEventListener("DOMContentLoaded", function () {
       text: `
         <p>
         1979년 발표된 <span class="en">Prince</span>의 두 번째 앨범
-        <span class="en"><Prince></span>에 수록된 곡으로, 
+        <span class="en">[Prince]</span>에 수록된 곡으로, 
         그를 대중적으로 알린 첫 번째 대형 히트곡이다. 당시 스물한 살이었던 
         <span class="en">Prince</span>는 작곡, 연주, 프로듀싱 대부분을 
         직접 맡으며 자신만의 음악 
