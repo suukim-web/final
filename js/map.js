@@ -860,7 +860,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     "iwannadance": {
-      title: "I Wanna Dance With Somebody",
+      title: "I Wanna Dance With Somebody (Who Loves Me)",
       artist: "Whitney Houston - [Whitney]",
       cover: "./img/album/iwannadance.jpg",
       audio: "./audio/iwannadance.mp3",
@@ -997,7 +997,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <p>
         <span class="en">Morning Flight</span>는 
         <span class="en">Takako Mamiya</span>의 유일한 정규 앨범 
-        <span class="en">LOVE TRIP</span>에 수록된 곡이다. 
+        <span class="en">[LOVE TRIP]</span>에 수록된 곡이다. 
         <span class="en">[LOVE TRIP]</span>은 발매 당시 큰 성공을 거두지는 못했지만, 이후 시티팝 재평가 흐름 속에서 세계적으로 알려지며 장르의 대표작 중 하나로 자리 잡았다.
         <p>
         곡 제목인 
