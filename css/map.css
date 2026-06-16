@@ -223,23 +223,31 @@ body.tag-open .tag-toggle span {
 .s19 { left: 60vw; top: 54vh; }
 .s20 { left: 57vw; top: 61vh; }
 .s21 { left: 77vw; top: 81vh; }
+.s22 { left: 28vw; top: 70vh; }
+.s23 { left: 70vw; top: 123vh; }
+.s24 { left: 71vw; top: 125vh; }
+.s25 { left: 62vw; top: 59vh; }
+.s26 { left: 55vw; top: 76vh; }
+.s27 { left: 78vw; top: 55vh; }
+.s28 { left: 67vw; top: 49vh; }
+.s29 { left: 56vw; top: 81vh; }
+.s30 { left: 63vw; top: 79vh; }
+.s31 { left: 55vw; top: 70vh; }
+.s32 { left: 60vw; top: 72vh; }
+.s33 { left: 73.5vw; top: 59vh; }
+.s34 { left: 35.2vw; top: 82.5vh; }
+.s35 { left: 39.5vw; top: 86vh; }
+.s36 { left: 30vw; top: 91vh; }
 
 
 
-.song-8 { left: 30vw; top: 70vh; }
 .song-10 { left: 24vw; top: 76vh; }
 .song-13 { left: 45vw; top: 68vh; }
-.song-14 { left: 55vw; top: 70vh; }
-.song-16 { left: 55vw; top: 75vh; }
 .song-17 { left: 67vw; top: 56vh; }
-.song-18 { left: 66vw; top: 58vh; }
 .song-20 { left: 71vw; top: 64vh; }
-
-.song-21 { left: 56vw; top: 81vh; }
 .song-22 { left: 59vw; top: 83vh; }
 .song-23 { left: 60vw; top: 87vh; }
 .song-24 { left: 66vw; top: 87vh; }
-.song-25 { left: 63vw; top: 79vh; }
 .song-26 { left: 70vw; top: 82vh; }
 .song-27 { left: 73vw; top: 85vh; }
 .song-28 { left: 78vw; top: 90vh; }
@@ -1048,11 +1056,9 @@ body.detail-open .detail-overlay {
 
   margin-top: 120px;}
 
-.footer-content p {
-  margin: 0;
-}
 
-.footer-content {
-  backdrop-filter: blur(12px);
-  background: rgba(255,255,255,0.35);
-}
+.jp,
+.detail-info .jp,
+.detail-text .jp {
+  font-family: "Noto Serif JP", serif !important;
+  font-weight: 600;}
