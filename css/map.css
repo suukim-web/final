@@ -206,106 +206,88 @@ body.tag-open .tag-toggle span {
 .s2youhavent { left: 34.5vw; top: 48vh; }
 .s3super-duper { left: 35vw; top: 61vh; }
 .s4iwantyou { left: 29vw; top: 58.5vh; }
-.s5timeaftertime { left: 17vw; top: 65vh; }
-.s6wantingyou { left: 9vw; top: 63vh; }
+.s5timeaftertime { left: 13vw; top: 65vh; }
+.s6wantingyou { left: 4vw; top: 63vh; }
 .s7themost { left: 14vw; top: 55vh; }
-.s8sexualhealing { left: 12vw; top: 70vh; }
-.s9 { left: 7vw; top: 83vh; }
+.s8sexualhealing { left: 8.5vw; top: 70vh; }
+.s9 { left: 5vw; top: 83vh; }
 .s10 { left: 43vw; top: 78vh; }
-.s11 { left: 25vw; top: 85vh; }
-.s12 { left: 11vw; top: 98vh; }
-.s13 { left: 14vw; top: 101vh; }
-.s14 { left: 26vw; top: 73vh; }
+.s11 { left: 20vw; top: 85vh; }
+.s12 { left: 11vw; top: 103vh; }
+.s13 { left: 15vw; top: 110vh; }
+.s14 { left: 25vw; top: 73vh; }
 .s15 { left: 46vw; top: 73vh; }
 .s16 { left: 8vw; top: 56vh; }
 .s17 { left: 37vw; top: 68vh; }
 .s18 { left: 40vw; top: 53vh; }
-.s19 { left: 60vw; top: 54vh; }
+.s19 { left: 60vw; top: 52vh; }
 .s20 { left: 57vw; top: 61vh; }
 .s21 { left: 77vw; top: 81vh; }
 .s22 { left: 28vw; top: 70vh; }
-.s23 { left: 70vw; top: 123vh; }
-.s24 { left: 71vw; top: 125vh; }
+.s23 { left: 70vw; top: 113vh; }
+.s24 { left: 71vw; top: 115vh; }
 .s25 { left: 62vw; top: 59vh; }
 .s26 { left: 55vw; top: 76vh; }
-.s27 { left: 78vw; top: 55vh; }
-.s28 { left: 67vw; top: 49vh; }
-.s29 { left: 56vw; top: 81vh; }
-.s30 { left: 63vw; top: 79vh; }
-.s31 { left: 55vw; top: 70vh; }
-.s32 { left: 60vw; top: 72vh; }
-.s33 { left: 73.5vw; top: 59vh; }
+.s27 { left: 88vw; top: 55vh; }
+.s28 { left: 67vw; top: 46vh; }
+.s29 { left: 60vw; top: 88vh; }
+.s30 { left: 67vw; top: 79vh; }
+.s31 { left: 60vw; top: 70vh; }
+.s32 { left: 66vw; top: 72vh; }
+.s33 { left: 83.5vw; top: 59vh; }
 .s34 { left: 35.2vw; top: 82.5vh; }
-.s35 { left: 39.5vw; top: 86vh; }
-.s36 { left: 30vw; top: 91vh; }
+.s35 { left: 39.5vw; top: 87vh; }
+.s36 { left: 30vw; top: 100vh; }
+.s37 { left: 69vw; top: 147vh; }
 
+.s39 { left: 51vw; top: 69vh; }
+.s40 { left: 59vw; top: 98vh; }
+.s41 { left: 62vw; top: 103vh; }
+.s42 { left: 60vw; top: 105vh;}
+.s43 { left: 73vw; top: 100vh; }
+.s44 { left: 78vw; top: 95vh; }
+.s45 { left: 70vw; top: 84vh; }
+.s46 { left: 29vw; top: 77vh; }
+.s47 { left: 25vw; top: 66ch; }
+.s48 { left: 19vw; top: 88vh; }
+.s49 { left: 10vw; top: 105.5vh; }
+.s50 { left: 48vw; top: 97vh; }
+.s51 { left: 55vw; top: 140vh; }
+.s52 { left: 75vw; top: 68vh; }
+.s53 { left: 74vw; top: 50vh; }
+.s54 { left: 66vw; top: 87vh; }
 
 
 .song-10 { left: 24vw; top: 76vh; }
 .song-13 { left: 45vw; top: 68vh; }
-.song-17 { left: 67vw; top: 56vh; }
+
 .song-20 { left: 71vw; top: 64vh; }
-.song-22 { left: 59vw; top: 83vh; }
-.song-23 { left: 60vw; top: 87vh; }
-.song-24 { left: 66vw; top: 87vh; }
-.song-26 { left: 70vw; top: 82vh; }
-.song-27 { left: 73vw; top: 85vh; }
-.song-28 { left: 78vw; top: 90vh; }
 .song-29 { left: 73vw; top: 89vh; }
-.song-30 { left: 83vw; top: 87vh; }
+.song-30 { left: 80vw; top: 87vh; }
 
-.song-31 { left: 48vw; top: 100vh; }
-.song-32 { left: 51vw; top: 97vh; }
-.song-33 { left: 50vw; top: 90vh; }
-.song-34 { left: 48vw; top: 93vh; }
-.song-35 { left: 49vw; top: 118vh; }
-.song-36 { left: 54vw; top: 110vh; }
+.song-31 { left: 48vw; top: 130vh; }
+.song-32 { left: 51vw; top: 127vh; }
+.song-33 { left: 50vw; top: 120vh; }
+.song-34 { left: 48vw; top: 123vh; }
+.song-35 { left: 49vw; top: 138vh; }
+.song-36 { left: 54vw; top: 142vh; }
+.song-37 { left: 29vw; top: 135vh; }
 
-/* 아래쪽 키워드 추가/보정 */
+.song-38 { left: 39vw; top: 115vh; }
 
-.song-37 {
-  left: 29vw;
-  top: 80vh;
-}
+.song-39 { left: 53vw; top: 125vh; }
 
-.song-38 {
-  left: 39vw;
-  top: 95vh;
-}
+.song-41 { left: 66vw; top: 121vh; }
 
-.song-39 {
-  left: 53vw;
-  top: 105vh;
-}
+.song-42 { left: 68vw;  top: 108vh; }
 
-.song-40 {
-  left: 64vw;
-  top: 93vh;
-}
+.song-43 { left: 72vw; top: 134vh; }
 
-.song-41 {
-  left: 66vw;
-  top: 101vh;
-}
-
-.song-42 {
-  left: 68vw;
-  top: 108vh;
-}
-
-.song-43 {
-  left: 72vw;
-  top: 104vh;
-}
-
-.song-44 {
-  left: 73vw;
-  top: 99vh;
-}
+.song-44 { left: 73vw; top: 149vh; }
 
 .song-45 {
   left: 78vw;
-  top: 99vh;
+  top: 149vh;
 }
 
 .song-46 {
@@ -339,11 +321,9 @@ body.tag-open .tag-toggle span {
 }
 
 .song-52 { left: 18vw; top: 68vh; }
-.song-53 { left: 26vw; top: 92vh; }
-.song-54 { left: 39vw; top: 76vh; }
+.song-53 { left: 26vw; top: 102vh; }
 .song-55 { left: 48vw; top: 122vh; }
 .song-56 { left: 58vw; top: 118vh; }
-.song-57 { left: 68vw; top: 72vh; }
 .song-58 { left: 76vw; top: 98vh; }
 .song-59 { left: 87vw; top: 83vh; }
 .song-60 { left: 22vw; top: 120vh; }
@@ -1057,8 +1037,15 @@ body.detail-open .detail-overlay {
   margin-top: 120px;}
 
 
+
 .jp,
 .detail-info .jp,
 .detail-text .jp {
   font-family: "Noto Serif JP", serif !important;
-  font-weight: 600;}
+  font-weight: 500;}
+
+  .kr {
+  font-family: "Noto Serif KR", serif !important;
+  font-weight: 500;
+}
+
