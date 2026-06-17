@@ -364,7 +364,7 @@ document.addEventListener("DOMContentLoaded", function () {
       text: `
         <p>
         1979년 발표된 <span class="en">Prince</span>의 두 번째 앨범
-        <span class="en">[Prince]</span>에 수록된 곡으로, 
+        <span class="en"><Prince></span>에 수록된 곡으로, 
         그를 대중적으로 알린 첫 번째 대형 히트곡이다. 당시 스물한 살이었던 
         <span class="en">Prince</span>는 작곡, 연주, 프로듀싱 대부분을 
         직접 맡으며 자신만의 음악 
@@ -860,7 +860,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     "iwannadance": {
-      title: "I Wanna Dance With Somebody (Who Loves Me)",
+      title: "I Wanna Dance With Somebody",
       artist: "Whitney Houston - [Whitney]",
       cover: "./img/album/iwannadance.jpg",
       audio: "./audio/iwannadance.mp3",
@@ -997,7 +997,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <p>
         <span class="en">Morning Flight</span>는 
         <span class="en">Takako Mamiya</span>의 유일한 정규 앨범 
-        <span class="en">[LOVE TRIP]</span>에 수록된 곡이다. 
+        <span class="en">LOVE TRIP</span>에 수록된 곡이다. 
         <span class="en">[LOVE TRIP]</span>은 발매 당시 큰 성공을 거두지는 못했지만, 이후 시티팝 재평가 흐름 속에서 세계적으로 알려지며 장르의 대표작 중 하나로 자리 잡았다.
         <p>
         곡 제목인 
@@ -1098,6 +1098,395 @@ document.addEventListener("DOMContentLoaded", function () {
         </p>
       `
     },
+
+
+    "theremust": {
+      title: 'There Must Be An Angel (Playing With My Heart)',
+      artist: 'Sign Libra',
+      cover: "./img/album/theremust.jpg",
+      audio: "./audio/theremust.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-skyblue",
+      tags: ["comforting"],
+      text: `
+        <p>
+        <span class="en">There Must Be an Angel (Playing With My Heart)</span>는 
+        라트비아 출신 아티스트 <span class="en">Sign Libra</span>가 2022년에 발표한 싱글이다. 이 곡은 
+        <span class="en">Eurythmics</span>의 동명곡을 새롭게 해석한 커버 버전으로, 원곡의 팝적 에너지를 유지하기보다 몽환적이고 부유하는 분위기로 재구성하였다.
+        </p><p>
+        <span class="en">Sign Libra</span>는 앰비언트, 뉴에이지, 신스팝을 결합한 음악으로 알려져 있으며, 보컬보다 공간감과 분위기를 중요하게 다루는 아티스트다. 그녀의 음악은 종종 명확한 서사보다 감각과 풍경을 전달하는 데 집중한다.
+        </p><p>
+        <span class="en">Diamond Head</span>는 밴드 특유의 기계적이면서도 유머러스한 
+        리듬이 돋보이는 곡이다. 신디사이저와 반복적인 기타 리프, 절제된 보컬이 중심을 이루며, 
+        감정을 폭발시키기보다 표면 위를 가볍게 미끄러지는 듯한 인상을 남긴다.
+        </p><p>
+        원곡의 가사는 사랑에 빠진 황홀한 상태를 묘사한다. 
+        <span class="en">"There must be an angel playing with my heart"</span>라는 문장은, 설명할 수 없는 행복과 설렘을 천사의 장난에 비유한다. 
+        <span class="en">Sign Libra</span>의 버전은 이러한 감정을 더욱 느리고 흐릿한 방식으로 표현하며, 현실이라기보다 꿈이나 기억에 가까운 인상을 남긴다.
+        </p>
+      `
+    },
+
+
+
+    "objectofmydesire": {
+      title: 'Object Of My Desire',
+      artist: 'Startpoint - [Restless]',
+      cover: "./img/album/objectofmydesire.jpg",
+      audio: "./audio/objectofmydesire.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-blue",
+      tags: ["Radiant", "Spectacle"],
+      text: `
+        <p>
+        <span class="en">Object of My Desire</span>는 미국 
+        <span class="en">R&B</span> 그룹 
+        <span class="en">Starpoint</span>가 1985년에 발표한 곡으로, 
+        앨범 <span class="en">[Restless]</span>에 수록되었다. 이 곡은 
+        <span class="en">Starpoint</span>의 가장 유명한 히트곡 중 하나이며, 
+        1980년대 중반 <span class="en">R&B</span>와 댄스 음악을 대표하는 작품으로 남아 있다.
+        </p><p>
+        제목인 <span class="en">"Object of My Desire"</span>는 직역하면 "내 욕망의 대상" 정도의 의미다. 가사는 상대를 
+        한 강한 끌림과 애정을 이야기하며, 전형적인 1980년대 <span class="en">R&B</span>의 로맨틱한 정서를 담고 있다.
+        </p><p>
+        음악적으로는 신시사이저, 드럼 머신, 펑키한 베이스 라인이 중심을 이루며, 당시 미국 <span class="en">R&B</span> 특유의 
+        세련된 프로덕션이 잘 드러난다. 특히 <span class="en">Renée Diggs</span>의 보컬은 자신감 있고 힘이 있으며, 곡 전체에 
+        활기찬 에너지를 부여한다.
+        </p><p>
+        원곡의 가사는 사랑에 빠진 황홀한 상태를 묘사한다. 
+        1980년대 중반은 댄스 팝과 <span class="en">R&B</span>가 점점 가까워지던 시기였고, 
+        <span class="en">Object of My Desire</span>는 그 
+        흐름을 대표하는 곡 중 하나로 평가받는다. 사랑을 이야기하지만 우울하거나 진지하기보다 밝고 개방적인 
+        분위기를 유지한다.
+        </p>
+      `
+    },
+
+    "oblivion": {
+      title: 'Oblivion',
+      artist: 'Grimes - [Visions]',
+      cover: "./img/album/oblivion.jpg",
+      audio: "./audio/oblivion.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-black",
+      tags: ["melancholy", "Spectacle"],
+      text: `
+        <p>
+        <span class="en">Oblivion</span>은 
+        <span class="en">Grimes</span>의 세 번째 정규 앨범 
+        <span class="en">[Visions]</span>에 수록된 곡이다. [Visions]</span>는 
+        <span class="en">Grimes</span>를 세계적으로 알린 작품으로, 신스팝, 전자음악, 드림팝을 독창적으로 결합한 앨범으로 평가받는다.
+        </p><p>
+        곡은 밝고 경쾌하게 들리지만, 가사는 훨씬 복잡한 주제를 다룬다. 
+        <span class="en">Grimes</span>는 여러 인터뷰에서 이 곡이 자신이 겪었던 폭력 경험 이후의 감정과 관련되어 있다고 설명한 바 있다. 그러나 노래는 공포나 분노를 직접적으로 표현하기보다, 불안과 경계를 특유의 가볍고 몽환적인 사운드 속에 담아낸다.
+        </p><p>
+        음악적으로는 반복적인 신스 멜로디와 가벼운 비트가 중심이 된다. 보컬은 명확한 전달보다는 하나의 질감처럼 사용되며, 곡 전체에는 현실과 비현실 사이를 떠다니는 듯한 분위기가 있다.
+        </p><p>
+        뮤직비디오 역시 독특한데, 일반적인 팝 스타의 이미지 대신 스포츠 경기장과 남성 중심 공간을 배경으로 촬영되었다. 이는 곡이 가진 긴장감과 주제를 시각적으로 보여주는 요소로 자주 언급된다.
+        </p>
+      `
+    },
+
+
+    "blackcat": {
+      title: 'Black Cat',
+      artist: 'The Broadcast - [Tender Buttons]',
+      cover: "./img/album/blackcat.jpg",
+      audio: "./audio/blackcat.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-black",
+      tags: ["melancholy", "urban"],
+      text: `
+        <p>
+        <span class="en">Black Cat</span>은 <span class="en">Broadcast</span>의 앨범 
+        <span class="en">[Tender Buttons]</span>에 수록된 곡이다. 
+        <span class="en">Broadcast</span>는 영국 버밍엄 출신 밴드로, 1960년대 전자음악, 라이브러리 뮤직, 사이키델릭 팝의 영향을 현대적으로 재해석한 독창적인 사운드로 알려져 있다.
+        </p><p>
+        <span class="en">Black Cat</span>은 앨범 
+        <span class="en">[Tender Buttons]</span>를 대표하는 곡 중 하나로, 단순한 팝송의 구조를 유지하면서도 묘한 긴장감과 불안감을 품고 있다. 반복되는 전자음과 간결한 리듬, 그리고 
+        <span class="en">Trish Keenan</span>의 차분한 보컬이 결합되어 현실과 꿈 사이 어딘가에 있는 듯한 분위기를 만든다.
+        </p><p>
+        제목의 "검은 고양이"는 전통적으로 미신과 불길함, 혹은 신비로움을 상징하지만, 곡은 이를 명확한 이야기로 설명하지 않는다. 
+        <span class="en">Broadcast</span>의 음악은 종종 의미를 직접 전달하기보다 이미지와 감각을 통해 접근하며, 
+        <span class="en">Black Cat</span> 역시 어떤 장면을 떠올리게 하는 방식으로 작동한다.
+        </p><p>
+        <span class="en">[Tender Buttons]</span>가 발표된 시기의 <span class="en">Broadcast</span>는 보다 미니멀하고 실험적인 방향으로 나아가고 있었으며, 이 곡은 그 변화를 잘 보여주는 작품 중 하나로 평가된다.
+        </p>
+      `
+    },
+
+
+    "reality": {
+      title: 'REALiTi (Demo)',
+      artist: 'Grimes',
+      cover: "./img/album/reality.jpg",
+      audio: "./audio/reality.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-purple",
+      tags: ["Spectacle", "urban"],
+      text: `
+        <p>
+        <span class="en">REALiTi</span>는 <span class="en">Grimes</span>가 2015년에 공개한 곡이다. 원래는 
+        <span class="en">[Art Angels]</span> 작업 과정에서 만들어졌지만 정규 앨범에는 수록되지 않았고, 이후 새로운 버전이 
+        <span class="en">[Art Angels]</span> 디럭스 에디션에 포함되었다. 특히 팬들 사이에서는 먼저 공개된 
+        <span class="en">REALiTi (Demo)</span> 버전이 가장 널리 사랑받고 있다.
+        </p><p>
+        곡은 <span class="en">Grimes</span>가 아시아 투어를 마친 뒤 느낀 감정에서 출발한 것으로 알려져 있다. 당시 그녀는 인터뷰에서 이 곡이 투어 중 경험했던 자유와 변화, 그리고 그 시간이 끝난 뒤의 감정을 담고 있다고 설명했다.
+        </p><p>
+        음악적으로는 밝은 신스 멜로디와 경쾌한 리듬이 중심이 되지만, 가사에는 지나간 시간에 대한 아쉬움과 회상이 담겨 있다. 그래서 곡은 슬프지 않지만 어딘가 그리운 기분을 남긴다. 기쁨과 상실감이 동시에 존재하는 것이 이 노래의 가장 큰 특징이다.
+        </p><p>
+        제목인 "<span class="en">REALiTi</span>"는 "<span class="en">Reality</span>(현실)"를 변형한 표현이다. 현실과 기억, 현재와 과거 사이의 거리감을 암시하는 제목으로 자주 해석된다.
+        </p>
+      `
+    },
+
+
+    "shower": {
+      title: 'Shower Scene',
+      artist: 'Saint Etienne - [Finisterre]',
+      cover: "./img/album/shower.jpg",
+      audio: "./audio/shower.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-grey",
+      tags: ["Spectacle", "urban"],
+      text: `
+        <p>
+        <span class="en">Shower Scene</span>은 <span class="en">Saint Etienne</span>의 앨범 <span class="en">[Finisterre]</span>에 수록된 곡이다. 
+        <span class="en">[Finisterre]</span>는 런던이라는 도시를 주제로 한 앨범으로 알려져 있으며, 도시의 거리, 사람들, 풍경, 그리고 일상의 순간들을 다양한 방식으로 담아낸 작품이다.
+        </p><p>
+        <span class="en">Saint Etienne</span>는 1990년대부터 영국 팝, 하우스, 일렉트로닉 음악을 결합하며 독특한 스타일을 구축해 왔고, 이 곡 역시 그들의 부드럽고 서정적인 면모를 보여준다.
+        </p><p>
+        곡 제목인 <span class="en">"Shower Scene"</span>은 영화나 소설에서 자주 등장하는 장면을 떠올리게 하지만, 노래는 특정한 사건을 극적으로 묘사하지 않는다. 오히려 어떤 기억의 한 조각, 스쳐 지나가는 순간의 분위기에 집중한다.
+        </p><p>
+        음악적으로는 차분한 비트와 부유하는 신시사이저, <span class="en">Sarah Cracknell</span>의 담담한 보컬이 중심을 이룬다. 강한 감정 표현보다는 풍경을 바라보듯 흘러가는 분위기가 특징이며, 
+        <span class="en">Saint Etienne</span> 특유의 도시적 감성이 잘 드러난다.
+        </p>
+      `
+    },
+
+    "hyperstellar": {
+      title: 'Supernova (Grimes Remix)',
+      artist: 'Aespa - [iScreaM Vol.33 : Supernova / Armageddon Remixes - EP]',
+      cover: "./img/album/hyperstellar.jpg",
+      audio: "./audio/hyperstellar.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-pink",
+      tags: ["Spectacle"],
+      text: `
+        <p>
+        <span class="en">Supernova (Grimes Remix)</span>는 
+        <span class="en">aespa</span>의 <span class="en">Supernova</span>를 
+        <span class="en">Grimes</span>가 리믹스한 버전으로, 2024년 리믹스 프로젝트를 통해 공개되었다.
+        </p><p>
+        원곡 <span class="en">Supernova</span>가 강한 베이스와 직선적인 에너지를 중심으로 전개된다면, 
+        <span class="en">Grimes</span>의 리믹스는 여기에 보다 몽환적이고 미래적인 전자음향을 추가한다. 그녀 특유의 신스 텍스처와 공간감이 더해지면서, 원곡의 공격적인 에너지가 조금 더 부유하고 환상적인 방향으로 변형된다.
+        </p><p>
+        <span class="en">Grimes</span>는 오랫동안 <span class="en">SF</span>적 상상력, 디지털 문화, 미래주의적 미학을 음악에 반영해 온 아티스트로 알려져 있으며, 이 리믹스 역시 그런 특징이 드러난다. 원곡의 "초신성" 이미지를 더욱 비현실적이고 우주적인 분위기로 확장하는 방식에 가깝다.
+        </p>
+      `
+    },
+
+
+    "dancingmachine": {
+      title: 'Dancing Machine',
+      artist: 'Jackson 5 - [Dancing Machine]',
+      cover: "./img/album/dancingmachine.jpg",
+      audio: "./audio/dancingmachine.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-orange",
+      tags: ["Spectacle", "sensual"],
+      text: `
+        <p>
+        <span class="en">Dancing Machine</span>은 
+        <span class="en">Jackson 5</span>가 1974년에 발표한 곡으로, 앨범 
+        <span class="en">[Dancing Machine]</span>에 수록되었다. 발매 당시 미국 차트 상위권에 오르며 큰 성공을 거두었고, 오늘날에도 
+        <span class="en">Jackson 5</span>를 대표하는 히트곡 가운데 하나로 남아 있다.
+        </p><p>
+        곡은 제목 그대로 춤을 주제로 한다. 가사 속 화자는 춤을 추는 한 여성을 "댄싱 머신"이라고 부르며 그녀의 움직임과 에너지에 감탄한다. 노래는 복잡한 이야기보다는 춤이 만들어내는 즐거움과 매력을 중심에 둔다.
+        </p><p>
+        음악적으로는 1970년대 펑크<span class="en">(Funk)</span>와 소울의 영향을 강하게 보여준다. 탄탄한 리듬 섹션과 반복적인 그루브가 곡을 이끌며, 어린 
+        <span class="en">Michael Jackson</span>의 활기찬 보컬이 곡 전체에 생동감을 더한다.
+        </p>
+      `
+    },
+
+
+    "sunshine": {
+      title: 'You Are the Sunshine of My Life',
+      artist: 'Stevie Wonder - [Talking Book]',
+      cover: "./img/album/sunshine.jpg",
+      audio: "./audio/sunshine.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-red",
+      tags: ["Sensual"],
+      text: `
+        <p>
+        <span class="en">You Are the Sunshine of My Life</span>는 <span class="en">Stevie Wonder</span>의 앨범 
+        <span class="en">[Talking Book]</span>에 수록된 곡으로, 1973년 싱글로 발매되어 미국 빌보드 차트 1위에 올랐다. 이 곡은 
+        <span class="en">Stevie Wonder</span>에게 첫 번째 그래미상을 안겨준 대표작 중 하나이기도 하다.
+        </p><p>
+        제목은 직역하면 "당신은 내 삶의 햇살이다"라는 뜻이다. 가사는 복잡한 은유나 극적인 서사 없이, 사랑하는 사람이 자신의 삶에 얼마나 큰 의미를 갖는지를 솔직하게 이야기한다.
+        </p><p>
+        음악적으로는 소울, 팝, 재즈의 요소가 자연스럽게 섞여 있으며, <span class="en">Stevie Wonder</span> 특유의 따뜻한 멜로디 감각이 잘 드러난다. 곡의 시작 부분에서는 
+        <span class="en">Stevie Wonder</span>가 아닌 다른 보컬이 먼저 노래를 시작하는데, 이는 당시로서는 비교적 독특한 구성으로 알려져 있다.
+        </p><p>
+        1970년대 <span class="en">Stevie Wonder</span>는 사회적 메시지를 담은 곡과 개인적인 사랑 노래를 모두 뛰어나게 만들어냈는데, 
+        <span class="en">You Are the Sunshine of My Life</span>는 그중에서도 가장 순수하고 낙관적인 사랑 노래로 자주 언급된다.
+        </p>
+      `
+    },
+
+    "letsstaytogether": {
+      title: 'Lets Stay Together',
+      artist: 'Al Green - [Lets Stay Together]',
+      cover: "./img/album/letsstaytogether.jpg",
+      audio: "./audio/letsstaytogether.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-pink",
+      tags: ["Sensual"],
+      text: `
+        <p>
+        <span class="en">Let's Stay Together</span>는 
+        <span class="en">Al Green</span>의 동명 앨범 
+        <span class="en">[Let's Stay Together]</span>의 타이틀곡으로, 1971년 발표되었다. 이 곡은 
+        <span class="en">Al Green</span>의 첫 번째 미국 빌보드 1위 싱글이 되었으며, 오늘날에도 소울 음악 역사상 가장 위대한 사랑 노래 중 하나로 평가받는다.
+        </p><p>
+        가사는 제목 그대로 "우리 함께 있자"는 내용을 담고 있다. 그러나 곡은 사랑에 빠지는 순간이나 이별의 아픔을 이야기하지 않고
+        "좋을 때도, 나쁠 때도 함께하자."라는 매우 단순한 약속을 노래한다.
+        </p><p>
+        음악적으로는 멤피스 소울<span class="en">(Memphis Soul)</span>의 대표적인 특징을 보여준다. 부드러운 오르간, 절제된 리듬, 그리고 
+        <span class="en">Al Green</span> 특유의 따뜻하고 섬세한 보컬이 중심을 이룬다.
+        </p>
+      `
+    },
+
+    "unknowingly": {
+      title: '<span class="kr">나도 몰래</span>',
+      artist: '<span class="kr">김정미</span> - [NOW]',
+      cover: "./img/album/unknowingly.jpg",
+      audio: "./audio/unknowingly.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-skyblue",
+      tags: ["cool"],
+      text: `
+        <p>
+        나도 몰래는 김정미의 앨범 <span class="en">[NOW]</span>에 수록된 곡이다. 김정미는 1970년대 한국 사이키델릭 록과 포크 음악을 대표하는 가수로, 작곡가 신중현과 함께 여러 작품을 발표했다.
+        </p><p>
+        이 시기 김정미의 음악은 한국 전통 선율, 사이키델릭 록, 포크, 소울의 요소가 독특하게 결합되어 있었으며, 
+        <span class="en">[NOW]</span>는 오늘날 한국 대중음악의 명반으로 자주 언급된다.
+        </p><p>
+        나도 몰래는 제목 그대로 "나도 모르는 사이에" 찾아온 감정을 노래한다. 노래는 사랑을 직접 설명하기보다, 자신도 알아차리지 못한 채 마음이 움직여 버린 상태를 담담하게 묘사한다.
+        </p><p>
+        음악적으로는 신중현 특유의 몽환적인 기타와 여백이 많은 편곡이 특징이다. 김정미의 보컬은 힘 있게 밀어붙이기보다 부드럽고 자연스럽게 흐르며, 곡 전체에 꿈을 꾸는 듯한 분위기를 만든다.
+        </p>
+      `
+    },
+
+    "remindme": {
+      title: 'Remind Me',
+      artist: 'Schiller Street Gang - [Eccentric Soul: Twinights Lunar Rotation]',
+      cover: "./img/album/remindme.jpg",
+      audio: "./audio/remindme.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-purple",
+      tags: ["Radiant", "Spectacle"],
+      text: `
+        <p>
+        <span class="en">Remind Me</span>는 1970년대 후반에 발표된 소울/디스코 계열의 곡으로 알려져 있다. 
+        당시의 부드러운 디스코와 소울 사운드를 따르며, 반복적인 그루브와 따뜻한 멜로디가 중심이 된다. 
+        곡 제목이 암시하듯 기억과 관계, 그리고 누군가를 떠올리는 감정이 핵심 정서로 느껴진다.
+        </p>
+      `
+    },
+
+    "lady": {
+      title: 'Lady Of The Year',
+      artist: 'Whillie Wright - [Telling The Truth]',
+      cover: "./img/album/lady.jpg",
+      audio: "./audio/lady.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-grey",
+      tags: ["melancholy", "comforting"],
+      text: `
+        <p>
+        <span class="en">Lady of the Year</span>는 미국 멤피스 출신의 싱어송라이터 
+        <span class="en">Willie Wright</span>의 앨범 <span class="en">[Telling the Truth]</span>에 수록된 곡이다. 
+        <span class="en">Willie Wright</span>는 1970년대에 활동했지만 대중적으로 널리 알려지지는 않았고, 
+        <span class="en">[Telling the Truth]</span> 역시 오랫동안 희귀 음반으로 남아 있었다. 이후 희귀 소울과 포크 음악을 재조명하는 과정에서 다시 주목받게 되었다.
+        </p><p>
+        곡은 제목 그대로 한 여성을 향한 애정과 존경을 표현한다. 
+        <span class="en">Willie Wright</span> 특유의 소박한 어쿠스틱 사운드와 부드러운 보컬이 중심이 되며, 화려한 편곡보다는 진솔한 분위기가 강조된다.
+        </p><p>
+        이 곡의 가장 큰 특징은 과장이 없다는 점이다. 거대한 사랑보다 가까운 사람에게 건네는 따뜻한 말처럼 들린다.
+        </p>
+      `
+    },
+
+    "rockman": {
+      title: 'Rockman',
+      artist: 'MK.gee',
+      cover: "./img/album/rockman.jpg",
+      audio: "./audio/rockman.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-brown",
+      tags: ["Spectacle"],
+      text: `
+        <p>
+        <span class="en">ROCKMAN</span>은 <span class="en">Mk.gee</span>가 2024년 발표한 싱글이다. 이 곡은 그의 데뷔 앨범 이후 공개된 독립 싱글로, 
+        발매 후 처음으로 여러 미국 라디오 차트에 진입하며 주목을 받았다.
+        </p><p>
+        <span class="en">Mk.gee</span>는 <span class="en">R&B</span>, 소프트 록, 사이키델리아, 팝을 독특하게 섞는 음악으로 알려져 있으며, 
+        <span class="en">ROCKMAN</span>에서는 특히 1970~80년대 록의 이미지와 에너지를 적극적으로 차용한다. 
+        <span class="en">Pitchfork</span>는 이 곡을 "록앤롤 주크박스 뮤지컬"에 비유하며, 가사와 제목 곳곳에서 
+        <span class="en">Elton John, Bruce Springsteen, Michael Hutchence</span> 같은 록스타들의 흔적을 발견할 수 있다고 
+        했다.</p><p>
+        음악적으로는 <span class="en">Mk.gee</span> 특유의 흐릿한 기타 톤과 디지털적인 질감이 유지되지만, 이전 작품보다 훨씬 직선적이고 추진력이 강하다. 동시에 과거 록 음악에 대한 오마주와 현대적인 프로덕션이 공존한다는 점이 특징이다. 여러 청취자들은 이 곡에서 
+        <span class="en">The Police</span>나 1980년대 팝 록의 분위기를 떠올리기도 했다
+        </p>
+      `
+    },
+
+    "ef": {
+      title: 'EF',
+      artist: 'Chanel Beads',
+      cover: "./img/album/ef.jpg",
+      audio: "./audio/ef.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-pink",
+      tags: ["Spectacle"],
+      text: `
+        <p>
+        <span class="en">Ef</span>는 <span class="en">Chanel Beads</span>가 2022년 발표한 싱글이다. 이 프로젝트는 뉴욕 기반의 뮤지션 
+        <span class="en">Shane Lavers</span>를 중심으로 만들어졌으며, 앰비언트 전자음악, 인디 팝, 필드 레코딩을 창의적으로 결합하는 것으로 알려져 있다.
+        </p><p>
+        곡은 단순한 팝 구조를 따르기보다 기억의 파편처럼 흘러간다. 흐릿한 신시사이저와 부유하는 보컬이 중심을 이루며, 명확한 서사보다 감정의 인상을 남긴다. 
+        <span class="en">Chanel Beads</span>는 자신의 음악을 설명하기 어려운 상태, 기억과 감정이 섞여 있는 상태에 가깝게 만들고자 한다고 이야기한 바 있다.</p><p>
+        <span class="en">Ef</span>는 이후 <span class="en">Chanel Beads</span>의 대표곡 중 하나가 되었으며, 이후 발표된 작품들로 이어지는 음악적 방향을 보여주는 초기 작품으로 자주 언급된다.
+        </p>
+      `
+    },
+
+    "jungleflower": {
+      title: '<span class="jp">ウォーターメロングループ</span> - [Cool Music]',
+      artist: 's',
+      cover: "./img/album/jungleflower.jpg",
+      audio: "./audio/jungleflower.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-skyblue",
+      tags: ["Spectacle"],
+      text: `
+        <p>
+        <span class="en">Jungle Flower</span>는 일본 그룹 <span class="jp">ウォーターメロングループ</span><span class="en">(Water Melon Group)</span>의 곡으로, 1970~80년대 일본의 재즈, 펑크, 소울, 라틴 음악이 혼합된 분위기를 보여준다. 
+        <span class="en">Water Melon Group</span>은 이후 희귀 일본 음악을 수집하는 <span class="en">DJ들과 레코드 컬렉터들 사이에서 재조명되며 컬트적인 인지도를 얻게 되었다.
+        </p><p>
+        곡은 화려한 연주와 리드미컬한 그루브가 중심이 되며, 강한 서사보다는 움직임과 분위기를 만드는 데 집중한다. 재즈와 펑크의 요소가 자연스럽게 섞여 있으며, 당시 일본 크로스오버 사운드의 특징을 엿볼 수 있다.
+        </p>
+      `
+    },
+
+
+
+
 
 
 
