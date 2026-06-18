@@ -202,12 +202,13 @@ body.tag-open .tag-toggle span {
 .brown { color: #a3571d; }
 .pink { color: #FF00BB; }
 
+
 .s1ngiculela { left: 23vw; top: 55vh; }
-.s2youhavent { left: 34.5vw; top: 48vh; }
+.s2youhavent { left: 34.5vw; top: 46vh; }
 .s3super-duper { left: 35vw; top: 61vh; }
-.s4iwantyou { left: 29vw; top: 58.5vh; }
+.s4iwantyou { left: 29vw; top: 57.5vh; }
 .s5timeaftertime { left: 13vw; top: 65vh; }
-.s6wantingyou { left: 4vw; top: 63vh; }
+.s6wantingyou { left: 4vw; top: 62vh; }
 .s7themost { left: 14vw; top: 55vh; }
 .s8sexualhealing { left: 8.5vw; top: 70vh; }
 .s9 { left: 5vw; top: 83vh; }
@@ -215,26 +216,26 @@ body.tag-open .tag-toggle span {
 .s11 { left: 20vw; top: 85vh; }
 .s12 { left: 11vw; top: 103vh; }
 .s13 { left: 15vw; top: 110vh; }
-.s14 { left: 25vw; top: 73vh; }
+.s14 { left: 25vw; top: 72vh; }
 .s15 { left: 46vw; top: 73vh; }
 .s16 { left: 8vw; top: 56vh; }
 .s17 { left: 37vw; top: 68vh; }
 .s18 { left: 40vw; top: 53vh; }
 .s19 { left: 60vw; top: 52vh; }
-.s20 { left: 57vw; top: 61vh; }
+.s20 { left: 57vw; top: 57vh; }
 .s21 { left: 77vw; top: 81vh; }
 .s22 { left: 28vw; top: 70vh; }
 .s23 { left: 70vw; top: 113vh; }
 .s24 { left: 71vw; top: 115vh; }
-.s25 { left: 62vw; top: 59vh; }
-.s26 { left: 55vw; top: 76vh; }
-.s27 { left: 88vw; top: 55vh; }
+.s25 { left: 62vw; top: 56vh; }
+.s26 { left: 55vw; top: 75vh; }
+.s27 { left: 90vw; top: 55vh; }
 .s28 { left: 67vw; top: 46vh; }
 .s29 { left: 60vw; top: 88vh; }
 .s30 { left: 67vw; top: 79vh; }
 .s31 { left: 60vw; top: 70vh; }
 .s32 { left: 66vw; top: 72vh; }
-.s33 { left: 83.5vw; top: 59vh; }
+.s33 { left: 85.5vw; top: 59vh; }
 .s34 { left: 35.2vw; top: 82.5vh; }
 .s35 { left: 39.5vw; top: 87vh; }
 .s36 { left: 30vw; top: 100vh; }
@@ -246,7 +247,7 @@ body.tag-open .tag-toggle span {
 .s42 { left: 60vw; top: 105vh;}
 .s43 { left: 73vw; top: 100vh; }
 .s44 { left: 78vw; top: 95vh; }
-.s45 { left: 70vw; top: 84vh; }
+.s45 { left: 70vw; top: 82vh; }
 .s46 { left: 29vw; top: 77vh; }
 .s47 { left: 25vw; top: 66ch; }
 .s48 { left: 19vw; top: 88vh; }
@@ -254,12 +255,29 @@ body.tag-open .tag-toggle span {
 .s50 { left: 48vw; top: 97vh; }
 .s51 { left: 55vw; top: 140vh; }
 .s52 { left: 75vw; top: 68vh; }
-.s53 { left: 74vw; top: 50vh; }
-.s54 { left: 66vw; top: 87vh; }
+.s53 { left: 74vw; top: 49vh; }
+.s54 { left: 66vw; top: 84vh; }
 .s55 { left: 87vw; top: 105vh; }
 .s56 { left: 55vw; top: 105vh; }
 .s57 { left: 59.5vw; top: 110vh; }
 .s58 { left: 80vw; top: 120vh; }
+.s59 { left: 62vw; top: 86vh; }
+.s60 { left: 67vw; top: 100vh; }
+.s61 { left: 52vw; top: 120vh; }
+.s62 { left: 50vw; top: 123vh; }
+.s63 { left: 51vw; top: 125vh; }
+.s64 { left: 48vw; top: 129vh; }
+.s65 { left: 49vw; top: 134vh; }
+.s66 { left: 54vw; top: 137vh; }
+.s67 { left: 70vw; top: 134vh; }
+.s68 { left: 69vw; top: 127vh; }
+.s69 { left: 84vw; top: 117vh; }
+.s70 { left: 67vw; top: 140vh; }
+.s71 { left: 80vw; top: 160vh; }
+.s72 { left: 90vw; top: 163vh; }
+.s73 { left: 42vw; top: 110vh; }
+
+
 
 
 
@@ -270,14 +288,7 @@ body.tag-open .tag-toggle span {
 
 .song-20 { left: 71vw; top: 64vh; }
 .song-29 { left: 73vw; top: 89vh; }
-
-.song-31 { left: 48vw; top: 130vh; }
-.song-32 { left: 51vw; top: 127vh; }
-.song-33 { left: 50vw; top: 120vh; }
-.song-34 { left: 48vw; top: 123vh; }
-.song-35 { left: 49vw; top: 138vh; }
-.song-36 { left: 54vw; top: 142vh; }
-.song-37 { left: 29vw; top: 135vh; }
+.song-37 { left: 29vw; top: 145vh; }
 
 .song-38 { left: 39vw; top: 115vh; }
 .song-39 { left: 53vw; top: 145vh; }
@@ -285,9 +296,6 @@ body.tag-open .tag-toggle span {
 .song-41 { left: 60vw; top: 152vh; }
 
 .song-42 { left: 68vw;  top: 108vh; }
-
-.song-43 { left: 72vw; top: 134vh; }
-
 .song-44 { left: 65vw; top: 150vh; }
 
 .song-45 {
@@ -295,14 +303,15 @@ body.tag-open .tag-toggle span {
   top: 149vh;
 }
 
-.song-46 { left: 82vw; top: 145vh; }
-.song-47 { left: 86vw; top: 140vh; }
+.song-46 { left: 82vw; top: 165vh; }
+.song-47 { left: 86vw; top: 160vh; }
 .song-48 { left: 73vw; top: 154vh; }
 .song-49 { left: 77vw; top: 166vh; }
 .song-50 { left: 78vw; top: 143vh; }
 .song-51 { left: 79vw; top: 129vh; }
-.song-52 { left: 18vw; top: 68vh; }
 .song-53 { left: 53vw; top: 165vh; }
+.song-54 { left: 65vw; top: 136vh; }
+
 
 
 
