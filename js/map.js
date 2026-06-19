@@ -637,7 +637,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/icantwait.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-blue",
-      tags: ["Spectacle","Spectacle"],
+      tags: ["Radiant","Spectacle"],
       text: `
         <p>
         <span class="en">I Can't Wait</span>은 미국 오리건주 출신의 
