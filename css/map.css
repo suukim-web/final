@@ -664,11 +664,48 @@ body.detail-open .detail-panel {
   font-size: 34px;
   font-weight: 900;}
 
-.detail-tags span:first-child {
-  color: #ff6a00;}
+.panel-tag {
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 4px 14px 8px;
+  font-size: 34px;
+  font-weight: 900;}
 
-.detail-tags span:last-child {
-  color: #a600ff;}
+.panel-tag.tag-sensual {
+  color: #b02cff;
+  font-family: "Arbutus", serif;}
+
+.panel-tag.tag-radiant {
+  color: #ff6a00;
+  font-family: "Michroma", sans-serif;}
+
+.panel-tag.tag-cool {
+  color: #0099ff;
+  font-family: "Syne", sans-serif;}
+
+.panel-tag.tag-spectacle {
+  color: #ff2200;
+  font-family: "Chokokutai", cursive;}
+
+.panel-tag.tag-melancholy {
+  color: #777;
+  font-family: "Cutive Mono", monospace;}
+
+.panel-tag.tag-urban {
+  color: #5f5a7a;
+  font-family: "Foldit", sans-serif;}
+
+.panel-tag.tag-comforting {
+  color: #69d64e;
+  font-family: "Work Sans", sans-serif;}
+
+.panel-tag.tag-floating {
+  color: #00ffd4;
+  font-family: "Yuji Boku", serif;}
+
+.tag-purple-heatwave {
+  color: #2b005c;
+  font-family: "Hedvig Letters Serif", serif;}
 
 .detail-text {
   height: calc(100vh - 390px);
@@ -1211,3 +1248,23 @@ body.detail-open .detail-overlay {
   font-family: "Noto Serif KR", serif !important;
   font-weight: 500;
 }
+
+
+
+.detail-tags .panel-tag {
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  width: auto !important;
+  height: auto !important;
+
+  display: inline-flex;
+  align-items: center;
+
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 4px 14px 8px;
+
+  font-size: 34px;
+  line-height: 1;
+  font-weight: 900;}
