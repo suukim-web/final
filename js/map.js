@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/superduper.mp3",
       link: "special.html",
       overlayClass: "overlay-yellow",
-      tags: ["Radiant", "Purple Heatwave"],
+      tags: ["Radiant"],
       text: `
         <p>
           영국 버밍엄 출신의 청소년 레게 밴드 <span class="en">Musical Youth</span>가 발표한 곡이다.
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/passthedutchie.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-yellow",
-      tags: ["Sensual", "Radiant"],
+      tags: ["Radiant", "Spectacle"],
       text: `
         <p>
           1982년 발표된 <span class="en">Musical Youth</span>의 대표곡으로, 
@@ -496,7 +496,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/upsidedown.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-pink",
-      tags: ["Radiant"],
+      tags: ["Sensual"],
       text: `
         <p>
         1980년 발표된 <span class="en">Diana Ross</span>의 
@@ -606,7 +606,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/startofaromance.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-brown",
-      tags: ["Spectacle"],
+      tags: ["Radiant", "Spectacle"],
       text: `
         <p>
         <span class="en">Start of a Romance</span>는 
@@ -637,7 +637,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/icantwait.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-blue",
-      tags: ["Spectacle"],
+      tags: ["Spectacle","Spectacle"],
       text: `
         <p>
         <span class="en">I Can't Wait</span>은 미국 오리건주 출신의 
@@ -673,7 +673,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/bouncin.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-green",
-      tags: ["Spectacle"],
+      tags: ["Spectacle", "urban"],
       text: `
         <p>
         <span class="en">Bouncin'</span>은 <span class="en">Tinashe</span>의 
@@ -780,7 +780,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/fame.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-red",
-      tags: ["Spectacle"],
+      tags: ["Radiant", "Spectacle"],
       text: `
         <p>
         <span class="en">Fame</span>은 <span class="en">David Bowie</span>의 앨범 
@@ -866,7 +866,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/iwannadance.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-blue",
-      tags: ["Spectacle"],
+      tags: ["Radiant", "Spectacle"],
       text: `
         <p>
         <span class="en">I Wanna Dance with Somebody (Who Loves Me)</span>는 
@@ -893,7 +893,7 @@ document.addEventListener("DOMContentLoaded", function () {
       cover: "./img/album/yumi.jpg",
       link: "special-wanting-you.html",
       overlayClass: "overlay-skyblue",
-      tags: ["Spectacle", "Radiant"],
+      tags: ["Radiant", "Spectacle"],
       text: `
         <p>
         음원은 다음 링크로 이동하셔서 들을 수 있습니다.
@@ -916,7 +916,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/nobodyelse.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-skyblue",
-      tags: ["Spectacle"],
+      tags: ["Radiant", "cool"],
       text: `
         <p>
         <span class="en">Nobody Else</span>는 1980년대 마츠토야 유미의 도시적이며 낭만적인 팝 감각이 잘 드러나는 곡 중 하나다. 사랑을 주제로 하지만, 극적인 고백이나 이별보다는 특정한 한 사람을 향한 집중된 감정을 담고 있다.
@@ -936,7 +936,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/thewayshedances.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-pink",
-      tags: ["Spectacle"],
+      tags: ["Radiant", "Spectacle"],
       text: `
         <p>
         <span class="en">The Way She Dances</span>는 
@@ -991,7 +991,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/morningflight.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-skyblue",
-      tags: ["Spectacle"],
+      tags: ["Radiant", "Spectacle"],
       text: `
         <p>
         <span class="en">Morning Flight</span>는 
@@ -1014,7 +1014,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/dekinai.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-pink",
-      tags: ["cool"],
+      tags: ["Radiant", "cool"],
       text: `
         <p>
     <span class="jp">できない</span><span class="en">(Dekinai)</span>는 일본 밴드
@@ -1039,7 +1039,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/whycantistop.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-green",
-      tags: ["cool"],
+      tags: ["cool", "Radiant"],
       text: `
         <p>
         <span class="en">Why Can't I Stop</span>은 신타로 사카모토의 앨범 
@@ -1068,7 +1068,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/diamondhead.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-blue",
-      tags: ["cool"],
+      tags: ["radiant", "cool"],
       text: `
         <p>
         <span class="en">Diamond Head</span>는 일본 뉴웨이브 밴드 
@@ -1106,7 +1106,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/theremust.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-skyblue",
-      tags: ["comforting"],
+      tags: ["comforting", "urban", "melancholy"],
       text: `
         <p>
         <span class="en">There Must Be an Angel (Playing With My Heart)</span>는 
@@ -1270,7 +1270,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/hyperstellar.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-pink",
-      tags: ["Spectacle"],
+      tags: ["Spectacle", "urban"],
       text: `
         <p>
         <span class="en">Supernova (Grimes Remix)</span>는 
@@ -1317,7 +1317,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/sunshine.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-red",
-      tags: ["Sensual"],
+      tags: ["Sensual", "cool", "Radiant"],
       text: `
         <p>
         <span class="en">You Are the Sunshine of My Life</span>는 <span class="en">Stevie Wonder</span>의 앨범 
@@ -1388,7 +1388,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/remindme.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-purple",
-      tags: ["Radiant", "Spectacle"],
+      tags: ["Radiant"],
       text: `
         <p>
         <span class="en">Remind Me</span>는 1970년대 후반에 발표된 소울/디스코 계열의 곡으로 알려져 있다. 
@@ -1571,7 +1571,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/urbanclearway.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-green",
-      tags: ["urban"],
+      tags: ["urban", "Spectacle"],
       text: `
         <p>
         <span class="en">Urban Clearway</span>는 <span class="en">Saint Etienne</span>의 세 번째 앨범 
@@ -1642,7 +1642,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/aiaigasa.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-red",
-      tags: ["Spectacle"],
+      tags: ["Spectacle", "Radiant"],
       text: `
         <p>
         <span class="jp">相合傘</span>는 아키코 야노의 두 번째 앨범 
@@ -1755,7 +1755,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/onemantokyo.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-brown",
-      tags: ["melancholy", "urban"],
+      tags: ["melancholy", "urban", "comforting"],
       text: `
         <p>
         .
@@ -1772,7 +1772,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/thesedays.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-grey",
-      tags: ["melancholy", "urban"],
+      tags: ["melancholy", "urban", "comforting"],
       text: `
         <p>
         .
@@ -1806,7 +1806,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/meyou.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-pink",
-      tags: ["melancholy", "comforting"],
+      tags: ["melancholy", "comforting","urban"],
       text: `
         <p>
         .
@@ -1854,10 +1854,10 @@ document.addEventListener("DOMContentLoaded", function () {
       title: 'It Aint No Use',
       artist: 'Stevie Wonder - [Fulfillingness First Finale]',
       cover: "./img/album/youhavent.jpg",
-      audio: "./audio/youhavent.mp3",
+      audio: "./audio/itaintnouse.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-orange",
-      tags: ["cool", "melancholy"],
+      tags: ["melancholy", "cool"],
       text: `
         <p>
         .
@@ -1891,7 +1891,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/tooshytosay.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-orange",
-      tags: ["cool", "melancholy"],
+      tags: ["melancholy", "cool"],
       text: `
         <p>
         .
