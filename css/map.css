@@ -215,38 +215,38 @@ body.tag-open .tag-toggle span {
 .s11 { left: 20vw; top: 85vh; }
 .s12 { left: 11vw; top: 113vh; }
 .s13 { left: 15vw; top: 110vh; }
-.s14 { left: 25vw; top: 72vh; }
+.s14 { left: 30vw; top: 72vh; }
 .s15 { left: 46vw; top: 73vh; }
 .s16 { left: 8vw; top: 56vh; }
 .s17 { left: 37vw; top: 68vh; }
 .s18 { left: 40vw; top: 53vh; }
-.s19 { left: 60vw; top: 52vh; }
+.s19 { left: 57vw; top: 50vh; }
 .s20 { left: 57vw; top: 57vh; }
-.s21 { left: 77vw; top: 81vh; }
-.s22 { left: 28vw; top: 70vh; }
-.s23 { left: 70vw; top: 113vh; }
-.s24 { left: 71vw; top: 115vh; }
-.s25 { left: 62vw; top: 56vh; }
+.s21 { left: 73vw; top: 88vh; }
+.s22 { left: 26vw; top: 70vh; }
+.s23 { left: 76vw; top: 103vh; }
+.s24 { left: 75vw; top: 105vh; }
+.s25 { left: 56vw; top: 54vh; }
 .s26 { left: 55vw; top: 75vh; }
 .s27 { left: 90vw; top: 55vh; }
-.s28 { left: 67vw; top: 46vh; }
-.s29 { left: 60vw; top: 88vh; }
-.s30 { left: 67vw; top: 79vh; }
+.s28 { left: 56vw; top: 48vh; }
+.s29 { left: 58vw; top: 88vh; }
+.s30 { left: 42vw; top: 106vh; }
 .s31 { left: 60vw; top: 70vh; }
 .s32 { left: 66vw; top: 72vh; }
-.s33 { left: 85.5vw; top: 59vh; }
-.s34 { left: 35.2vw; top: 82.5vh; }
-.s35 { left: 39.5vw; top: 87vh; }
+.s33 { left: 54vw; top: 92vh; }
+.s34 { left: 35.2vw; top: 88.5vh; }
+.s35 { left: 39.5vw; top: 94vh; }
 .s36 { left: 30vw; top: 100vh; }
 .s37 { left: 69vw; top: 147vh; }
 
 .s39 { left: 51vw; top: 69vh; }
 .s40 { left: 59vw; top: 98vh; }
-.s41 { left: 62vw; top: 103vh; }
-.s42 { left: 60vw; top: 105vh;}
+.s41 { left: 68vw;  top: 110vh; }
+.s42 { left: 65vw; top: 113vh;}
 .s43 { left: 73vw; top: 100vh; }
 .s44 { left: 78vw; top: 95vh; }
-.s45 { left: 70vw; top: 82vh; }
+.s45 { left: 71vw; top: 97vh; }
 .s46 { left: 29vw; top: 77vh; }
 .s47 { left: 25vw; top: 66ch; }
 .s48 { left: 19vw; top: 88vh; }
@@ -255,12 +255,12 @@ body.tag-open .tag-toggle span {
 .s51 { left: 55vw; top: 140vh; }
 .s52 { left: 75vw; top: 68vh; }
 .s53 { left: 74vw; top: 49vh; }
-.s54 { left: 66vw; top: 84vh; }
-.s55 { left: 87vw; top: 105vh; }
+.s54 { left: 41vw; top: 120vh; }
+.s55 { left: 82vw; top: 103vh; }
 .s56 { left: 55vw; top: 105vh; }
 .s57 { left: 59.5vw; top: 110vh; }
 .s58 { left: 80vw; top: 120vh; }
-.s59 { left: 62vw; top: 86vh; }
+.s59 { left: 60vw; top: 86vh; }
 .s60 { left: 67vw; top: 100vh; }
 .s61 { left: 52vw; top: 120vh; }
 .s62 { left: 50vw; top: 123vh; }
@@ -268,13 +268,13 @@ body.tag-open .tag-toggle span {
 .s64 { left: 48vw; top: 129vh; }
 .s65 { left: 49vw; top: 134vh; }
 .s66 { left: 44vw; top: 137vh; }
-.s67 { left: 70vw; top: 134vh; }
-.s68 { left: 69vw; top: 127vh; }
+.s67 { left: 66vw; top: 144vh; }
+.s68 { left: 72.5vw; top: 139vh; }
 .s69 { left: 84vw; top: 117vh; }
 .s70 { left: 67vw; top: 140vh; }
 .s71 { left: 80vw; top: 160vh; }
 .s72 { left: 90vw; top: 163vh; }
-.s73 { left: 42vw; top: 110vh; }
+.s73 { left: 43vw; top: 110vh; }
 .s74 { left: 36vw; top: 115vh; }
 .s75 { left: 43vw; top: 112vh; }
 .s76 { left: 86vw; top: 160vh; }
@@ -308,13 +308,8 @@ body.tag-open .tag-toggle span {
 .s104 { left: 45vw; top: 147vh; }
 .s105 { left: 55vw; top: 175vh; }
 .s106 { left: 3vw; top: 142vh; }
-.s107 { left: 62vw; top: 107vh;}
-
-
-
-
-
-
+.s107 { left: 64vw; top: 111vh;}
+.s108 { left: 78vw; top: 149vh; }
 
 
 
@@ -329,7 +324,6 @@ body.tag-open .tag-toggle span {
 .song-20 { left: 71vw; top: 64vh; }
 .song-29 { left: 73vw; top: 89vh; }
 .song-42 { left: 68vw;  top: 108vh; }
-.song-45 { left: 78vw; top: 149vh; }
 .song-48 { left: 73vw; top: 154vh; }
 .song-49 { left: 77vw; top: 166vh; }
 .song-50 { left: 78vw; top: 143vh; }
@@ -464,10 +458,10 @@ body.tag-open .tag-circle {
 
 .tag-urban {
   font-family: "Foldit";
-  left: 70vw;
+  left: 65vw;
   top: 95vh;
-  width: 22vw;
-  height: 22vw;
+  width: 30vw;
+  height: 30vw;
   color: #5f5a7a;}
 .tag-urban-curve {
   font-size: 100px;
