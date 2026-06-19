@@ -1467,8 +1467,8 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     "jungleflower": {
-      title: '<span class="jp">ウォーターメロングループ</span> - [Cool Music]',
-      artist: 's',
+      title: 'Jungle Flower',
+      artist: '<span class="jp">ウォーターメロングループ</span> - [Cool Music]',
       cover: "./img/album/jungleflower.jpg",
       audio: "./audio/jungleflower.mp3",
       link: "special-wanting-you.html",
@@ -1477,7 +1477,7 @@ document.addEventListener("DOMContentLoaded", function () {
       text: `
         <p>
         <span class="en">Jungle Flower</span>는 일본 그룹 <span class="jp">ウォーターメロングループ</span><span class="en">(Water Melon Group)</span>의 곡으로, 1970~80년대 일본의 재즈, 펑크, 소울, 라틴 음악이 혼합된 분위기를 보여준다. 
-        <span class="en">Water Melon Group</span>은 이후 희귀 일본 음악을 수집하는 <span class="en">DJ들과 레코드 컬렉터들 사이에서 재조명되며 컬트적인 인지도를 얻게 되었다.
+        <span class="en">Water Melon Group</span>은 이후 희귀 일본 음악을 수집하는 <span class="en">DJ</span>들과 레코드 컬렉터들 사이에서 재조명되며 컬트적인 인지도를 얻게 되었다.
         </p><p>
         곡은 화려한 연주와 리드미컬한 그루브가 중심이 되며, 강한 서사보다는 움직임과 분위기를 만드는 데 집중한다. 재즈와 펑크의 요소가 자연스럽게 섞여 있으며, 당시 일본 크로스오버 사운드의 특징을 엿볼 수 있다.
         </p>
@@ -1485,16 +1485,82 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
 
+    "patterns": {
+      title: 'Patterns',
+      artist: 'Suse Millemann',
+      cover: "./img/album/patterns.jpg",
+      audio: "./audio/patterns.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-grey",
+      tags: ["melancholy", "urban"],
+      text: `
+        <p>
+        <span class="en">Patterns</span>는 시카고 출신의 
+        <span class="en">Suse Millemann</span>이 남긴 곡으로, 1980년대에 녹음된 작품이 이후 
+        <span class="en">Numero Group</span>의 재발매 프로젝트를 통해 다시 알려졌다.
+        </p><p>
+        곡은 화려한 전개보다 부드럽게 반복되는 리듬과 신시사이저의 질감에 집중한다. 1980년대 드림팝, 뉴웨이브, 소프트 신스팝의 분위기를 공유하면서도 지나치게 차갑거나 미래적으로 들리지 않는다. 오히려 희미한 기억처럼 흐르는 정서가 중심에 있다.
+        </p>
+      `
+    },
+
+    "images": {
+      title: 'Images',
+      artist: 'Mikey Enwright',
+      cover: "./img/album/images.jpg",
+      audio: "./audio/ㅠㅠ.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-grey",
+      tags: ["melancholy", "urban"],
+      text: `
+        <p>
+        <span class="en">Images</span>는 영국의 독립 전자음악가 
+        <span class="en">Mikey Enwright</span>가 2023년 발표한 싱글이다. 현재 공개된 자료는 많지 않으며, 곡의 제작 배경에 대한 상세한 인터뷰 역시 확인되지 않는다.
+        </p><p>
+        곡은 몽환적인 전자음과 흐릿한 보컬 레이어를 중심으로 전개된다. 명확한 서사보다는 제목처럼 이미지와 인상의 흐름에 가까운 구성을 보여준다.
+        </p>
+      `
+    },
+
+     "chokeenough": {
+      title: 'Choke Enough',
+      artist: 'Oklou - [Choke Enough]',
+      cover: "./img/album/chokeenough.jpg",
+      audio: "./audio/chokeenough.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-grey",
+      tags: ["melancholy", "urban"],
+      text: `
+        <p>
+        ㅇ
+        </p><p>
+        ㅇ
+        </p>
+      `
+    },
+
+    "newyorkgrief": {
+      title: 'New York Grief',
+      artist: 'Princess Demeny',
+      cover: "./img/album/newyorkgrief.jpg",
+      audio: "./audio/newyorkgrief.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-grey",
+      tags: ["melancholy", "urban"],
+      text: `
+        <p>
+        ㅇ
+        </p><p>
+        ㅇ
+        </p>
+      `
+    },
+
+};
 
 
 
 
-
-
-
-
-
-  };
 
 
   // Open Tag
@@ -1598,6 +1664,48 @@ detailPanel.classList.add(data.overlayClass);
     audio.addEventListener("ended", function () {
       playButton.textContent = "▶";
       playButton.classList.remove("is-playing");
+    });
+  }
+
+  const curationSlider = document.querySelector("#curationSlider");
+  const curationKnob = document.querySelector("#curationSlider .slide-knob");
+
+  if (curationSlider && curationKnob) {
+    let dragging = false;
+    let startX = 0;
+    let knobX = 0;
+
+    function maxX() {
+      return curationSlider.offsetWidth - curationKnob.offsetWidth;
+    }
+
+    function moveKnob(x) {
+      knobX = Math.max(0, Math.min(x, maxX()));
+      curationKnob.style.transform = `translateX(${knobX}px)`;
+    }
+
+    curationSlider.addEventListener("pointerdown", function (e) {
+      dragging = true;
+      startX = e.clientX - knobX;
+      curationKnob.style.transition = "none";
+      curationSlider.setPointerCapture(e.pointerId);
+    });
+
+    curationSlider.addEventListener("pointermove", function (e) {
+      if (!dragging) return;
+      moveKnob(e.clientX - startX);
+    });
+
+    curationSlider.addEventListener("pointerup", function () {
+      dragging = false;
+      curationKnob.style.transition = "transform 0.2s ease";
+
+      if (knobX > maxX() * 0.75) {
+        moveKnob(maxX());
+        window.open("curation.html", "_blank");
+      } else {
+        moveKnob(0);
+      }
     });
   }
 });
