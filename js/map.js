@@ -1713,6 +1713,212 @@ document.addEventListener("DOMContentLoaded", function () {
       `
     },
 
+    "highroad": {
+      title: 'High Road',
+      artist: 'Charlotte Day Wilson - [Patchwork]',
+      cover: "./img/album/highroad.jpg",
+      audio: "./audio/highroad.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-grey",
+      tags: ["cool", "melancholy"],
+      text: `
+        <p>
+        .
+        </p><p>
+        .
+        </p>
+      `
+    },
+
+
+    "bodyfeeling": {
+      title: 'Bodyfeeling',
+      artist: 'Underscores - [U]',
+      cover: "./img/album/bodyfeeling.jpg",
+      audio: "./audio/bodyfeeling.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-skyblue",
+      tags: ["cool", "melancholy"],
+      text: `
+        <p>
+        .
+        </p><p>
+        .
+        </p>
+      `
+    },
+
+    "onemantokyo": {
+      title: 'One Man Tokyo',
+      artist: 'Martyr Group - [Martyr Group]',
+      cover: "./img/album/onemantokyo.jpg",
+      audio: "./audio/onemantokyo.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-brown",
+      tags: ["melancholy", "urban"],
+      text: `
+        <p>
+        .
+        </p><p>
+        .
+        </p>
+      `
+    },
+
+    "thesedays": {
+      title: 'These Days',
+      artist: 'Nico - [Chelsea Girl]',
+      cover: "./img/album/thesedays.jpg",
+      audio: "./audio/thesedays.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-grey",
+      tags: ["melancholy", "urban"],
+      text: `
+        <p>
+        .
+        </p><p>
+        .
+        </p>
+      `
+    },
+
+    "evergreenwardrobe": {
+      title: 'Evergreen Wardrobe',
+      artist: 'edeF. & Orlando',
+      cover: "./img/album/evergreenwardrobe.jpg",
+      audio: "./audio/evergreenwardrobe.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-beige",
+      tags: ["urban"],
+      text: `
+        <p>
+        .
+        </p><p>
+        .
+        </p>
+      `
+    },
+
+    "meyou": {
+      title: 'Me Vs. You',
+      artist: 'Everyone Asked About You - [Everyone Asked About You - EP]',
+      cover: "./img/album/meyou.jpg",
+      audio: "./audio/meyou.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-pink",
+      tags: ["melancholy", "comforting"],
+      text: `
+        <p>
+        .
+        </p><p>
+        .
+        </p>
+      `
+    },
+
+    "icanseeclearlynow": {
+      title: 'I Can See Clearly Now',
+      artist: 'Johnny Nash - [The Best Of Johnny Nash]',
+      cover: "./img/album/icanseeclearlynow.jpg",
+      audio: "./audio/icanseeclearlynow.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-pink",
+      tags: ["comforting"],
+      text: `
+        <p>
+        .
+        </p><p>
+        .
+        </p>
+      `
+    },
+
+    "theloveisaw": {
+      title: 'The Love I Saw In You Was Just A Mirage',
+      artist: 'Smokey Robinson & The Miracles - [Make It Happen]',
+      cover: "./img/album/theloveisaw.jpg",
+      audio: "./audio/theloveisaw.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-blue",
+      tags: ["comforting"],
+      text: `
+        <p>
+        .
+        </p><p>
+        .
+        </p>
+      `
+    },
+
+    "itaintnouse": {
+      title: 'It Aint No Use',
+      artist: 'Stevie Wonder - [Fulfillingness First Finale]',
+      cover: "./img/album/youhavent.jpg",
+      audio: "./audio/youhavent.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-orange",
+      tags: ["cool", "melancholy"],
+      text: `
+        <p>
+        .
+        </p><p>
+        .
+        </p>
+      `
+    },
+
+    "magiciwantu": {
+      title: 'Magic I Want You',
+      artist: 'Jane Remover - [Love - EP]',
+      cover: "./img/album/magiciwantyou.jpg",
+      audio: "./audio/magiciwantyou.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-blue",
+      tags: ["cool"],
+      text: `
+        <p>
+        .
+        </p><p>
+        .
+        </p>
+      `
+    },
+
+    "tooshytosay": {
+      title: 'Too Shy To Say',
+      artist: 'Stevie Wonder - [Fulfillingness First Finale]',
+      cover: "./img/album/tooshytosay.jpg",
+      audio: "./audio/tooshytosay.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-orange",
+      tags: ["cool", "melancholy"],
+      text: `
+        <p>
+        .
+        </p><p>
+        .
+        </p>
+      `
+    },
+
+    "meandmyarrow": {
+      title: 'Me And My Arrow',
+      artist: 'Harry Nilson - [The Point]',
+      cover: "./img/album/meandmyarrow.jpg",
+      audio: "./audio/meandmyarrow.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-green",
+      tags: ["comforting"],
+      text: `
+        <p>
+        .
+        </p><p>
+        .
+        </p>
+      `
+    },
+
+
 
 
 
@@ -1753,13 +1959,16 @@ document.addEventListener("DOMContentLoaded", function () {
       detailTitle.innerHTML = data.title;
       detailArtist.innerHTML = data.artist;
       detailCover.src = data.cover;
+      if (detailArrow) {detailArrow.href = data.link || "#";}
+
       detailArrow.href = data.link;
 
       detailTags.innerHTML = data.tags
-        .map(function (tag) {
-          return `<span>${tag}</span>`;
-        })
-        .join("");
+  .map(function (tag) {
+    const tagClass = tag.toLowerCase().replace(/\s+/g, "-");
+return `<span class="panel-tag tag-${tag.toLowerCase()}">${tag}</span>`;
+  })
+  .join("");
 
       const overlayClasses = [
   "overlay-green",
