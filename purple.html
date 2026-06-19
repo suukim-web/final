@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="./css/reset.css" />
   <link rel="stylesheet" href="./css/common.css" />
   <link rel="stylesheet" href="./css/playlist.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alien+Block&family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Arbutus&family=Asta+Sans:wght@300..800&family=Bitcount+Single:wght@100..900&family=Bytesized&family=Chokokutai&family=Climate+Crisis:YEAR@1979&family=Cutive+Mono&family=Foldit:wght@100..900&family=Hedvig+Letters+Serif:opsz@12..24&family=Jacquarda+Bastarda+9&family=Michroma&family=Monoton&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Orbit&family=Shippori+Mincho&family=Smokum&family=Special+Elite&family=Syne:wght@400..800&family=Yuji+Boku&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +23,7 @@
     <img class="big-title" src="./img/curation/purple/title.svg" alt="Purple Heatwave" />
     <img class="big-cover" src="./img/curation/purple/cover.jpg" alt="" />
   </div>
-  <img class="playlist-texts" src="./img/curation/purple/texts.png" alt="" />
+
   <div class="orbit-track-list purple-list">
   <button class="track t1 orange" data-song="sexualhealing">Sexual Healing</button>
   <button class="track t2 green" data-song="ineedyourlove">I Need Your Love</button>
@@ -35,8 +38,51 @@
   <button class="track t11 blue" data-song="iwantyou">I Want You Back</button>
   <button class="track t12 orange" data-song="passthedutchie">Pass The Dutchie</button>
   <button class="track t13 black" data-song="upsidedown">Upside Down</button>
+  <button class="track t14 red" data-song="wantingyou">
+  I'm Just Wanting You</button>
+  <button class="track t15 yellow" data-song="lefreak">
+  Le Freak</button>
+  <button class="track t16 purple" data-song="jody">Jody</button>
+  <button class="track t17 red" data-song="alldaysucker">All Day Sucker</button>
+  <button class="track t18 brown" data-song="startofaromance">Start Of A Romance</button>
+  <button class="track t19 blue" data-song="icantwait">I Can’t Wait</button>
+  <button class="track t20 red" data-song="forgetmenot">Forget Me Nots</button>
+  <button class="track t21 blue" data-song="iwannadance">I Wanna Dance With Somebody</button>
+  <button class="track t22 blue" data-song="objectofmydesire">Object Of My Desire</button>
+  <button class="track t23 pink" data-song="dancingmachine">Dancing Machine</button>
+  
 </div>
 </section>
+<div class="detail-overlay">
+  <div class="aura-third"></div>
+</div>
+
+<aside class="detail-panel" aria-hidden="true">
+  <div class="detail-marquee">
+    <button class="play-button" type="button">▶</button>
+
+    <div class="marquee-track">
+      <span>START START START START START START START START START&nbsp;&nbsp;</span>
+      <span>START START START START START START START START START&nbsp;&nbsp;</span>
+    </div>
+
+    <audio id="detail-audio"></audio>
+  </div>
+
+  <div class="detail-main">
+    <img class="detail-cover" src="" alt="" />
+
+    <div class="detail-info">
+      <h2></h2>
+      <p></p>
+    </div>
+
+    <a class="detail-arrow" href="#" target="_blank">→</a>
+  </div>
+
+  <div class="detail-tags"></div>
+  <div class="detail-text"></div>
+</aside>
   </main>
 
   <script src="./js/playlist.js"></script>
