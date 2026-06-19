@@ -1662,7 +1662,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/unifyingthought.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-black",
-      tags: ["melancholy"],
+      tags: ["melancholy", "cool"],
       text: `
         <p>
         <span class="en">Unifying Thought</span>는 
@@ -1701,7 +1701,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/chanel.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-black",
-      tags: ["melancholy"],
+      tags: ["melancholy", "cool"],
       text: `
         <p>
         <span class="en">Police Scanner</span>는 
