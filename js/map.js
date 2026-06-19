@@ -891,7 +891,6 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "September Blue Moon",
       artist: "Yumi Matsutoya - [Delight Slight Light Kiss]",
       cover: "./img/album/yumi.jpg",
-      audio: "./audio/ㅠㅠ.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-skyblue",
       tags: ["Spectacle", "Radiant"],
@@ -1508,12 +1507,14 @@ document.addEventListener("DOMContentLoaded", function () {
       title: 'Images',
       artist: 'Mikey Enwright',
       cover: "./img/album/images.jpg",
-      audio: "./audio/ㅠㅠ.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-grey",
       tags: ["melancholy", "urban"],
       text: `
         <p>
+        음원은 다음 링크로 이동하셔서 들을 수 있습니다.
+        <span class="en">https://music.apple.com/kr/album/images/1693162555?i=1693162556</span>
+        </p><p>
         <span class="en">Images</span>는 영국의 독립 전자음악가 
         <span class="en">Mikey Enwright</span>가 2023년 발표한 싱글이다. 현재 공개된 자료는 많지 않으며, 곡의 제작 배경에 대한 상세한 인터뷰 역시 확인되지 않는다.
         </p><p>
@@ -1529,12 +1530,17 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/chokeenough.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-grey",
-      tags: ["melancholy", "urban"],
+      tags: ["urban"],
       text: `
         <p>
-        .
+        <span class="en">Choke Enough</span>는 <span class="en">Oklou</span>의 데뷔 앨범 
+        <span class="en">[Choke Enough]</span>의 타이틀곡이다. 
+        <span class="en">Oklou</span>는 프랑스 출신의 프로듀서이자 싱어송라이터 
+        <span class="en">Marylou Mayniel</span>의 프로젝트로, 클래식 음악 교육을 받은 뒤 전자음악과 하이퍼팝 신에서 독자적인 위치를 구축했다. 이 앨범은 약 2년 반에 걸쳐 제작되었으며, 
+        <span class="en">Oklou</span>는 이를 "의미를 찾는 탐색"에 관한 작품이라고 설명했다.
         </p><p>
-        .
+        곡은 전통적인 팝 구조보다 분위기와 변형에 집중한다. 신스 사운드는 끊임없이 형태를 바꾸며 흐르고, 보컬은 선명한 메시지보다 감정의 흔적처럼 떠오른다. 평론가들은 이 작품을 
+        <span class="en">Y2K</span> 팝, 중세 선율, 앰비언트 전자음악이 결합된 독특한 세계로 평가했다.
         </p>
       `
     },
@@ -1546,15 +1552,181 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/newyorkgrief.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-grey",
-      tags: ["melancholy", "urban"],
+      tags: ["melancholy"],
       text: `
         <p>
-        .
+        <span class="en">New York Grief</span>는 몬트리올의 시인, 화가, 영화감독이자 음악가인 
+        <span class="en">Princess Demeny</span>가 1986년에 만든 곡이다. 그녀는 당시 연인이었던 
+        <span class="en">Jean Mineau</span>와 함께 작업했지만, 그는 곡 작업 직후 말기 암 진단을 받고 세상을 떠났다. 이 곡은 오랫동안 발표되지 못하다가 2021년에 정식 재발매되었다.
         </p><p>
-        .
+        <span class="en">Princess Demeny</span>는 이 곡이 1980년대 중반 여러 차례 방문했던 뉴욕에서 영감을 받았다고 밝혔다. 그녀는 밤새 깨어 있으면서 뉴욕의 밤거리와 사람들을 관찰했고, 밤의 인물들이 사라지면 다시 직장인들이 도시를 채우는 모습을 보며 독특한 감정을 느꼈다고 회상했다. 그녀는 "뉴욕에서는 밤보다 낮에 더 많은 어둠이 있는 것 같았다"고 말하기도 했다.
         </p>
       `
     },
+
+    "urbanclearway": {
+      title: 'Urban Clearway',
+      artist: 'Saint Etienne - [Tiger Bay]',
+      cover: "./img/album/urbanclearway.jpg",
+      audio: "./audio/urbanclearway.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-green",
+      tags: ["urban"],
+      text: `
+        <p>
+        <span class="en">Urban Clearway</span>는 <span class="en">Saint Etienne</span>의 세 번째 앨범 
+        <span class="en">Tiger Bay</span>의 오프닝 트랙이다. 1994년에 발표된 
+        <span class="en">[Tiger Bay]</span>는 포크, 댄스, 전자음악, 팝을 자유롭게 넘나드는 작품으로 평가받으며, 
+        <span class="en">Saint Etienne</span>의 대표작 중 하나로 꼽힌다.
+        </p><p>
+        이 곡은 앨범의 첫 곡이지만 보컬이 없는 인스트루멘털이다. 
+        <span class="en">Saint Etienne</span> 특유의 신스 사운드와 댄스 비트가 중심을 이루며, 이후 펼쳐질 
+        <span class="en">[Tiger Bay]</span>의 세계를 여는 역할을 한다. <span class="en">Pitchfork</span>는 이 곡을 "미래적인 광택
+        <span class="en">(futuristic sheen)"을 가진 오프닝으로 묘사했고, <span class="en">Apple Music</span>은 "디스코 위에 바로크 팝 멜로디를 얹은 곡"이라고 소개했다.
+        </p><p>
+        곡 제목의 <span class="en">"Urban Clearway"</span>는 영국 도로 표지판에서 볼 수 있는 용어로, 특정 시간대에 정차가 금지되는 도로 구간을 의미한다. 그래서인지 이 음악은 어떤 장소의 이야기라기보다, 도시를 가로지르는 움직임과 속도를 떠올리게 한다.
+        </p>
+      `
+    },
+
+    "winternow": {
+      title: 'Winter Now',
+      artist: 'The Broadcast - [Haha Sound]',
+      cover: "./img/album/winternow.jpg",
+      audio: "./audio/winternow.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-grey",
+      tags: ["urban", "melancholy"],
+      text: `
+        <p>
+        <span class="en">Winter Now</span>는 <span class="en">Broadcast</span>의 앨범 
+        <span class="en">Haha Sound</span>에 수록된 곡이다. 
+        <span class="en">Broadcast</span>가 보다 미니멀하고 실험적인 방향으로 나아간 시기의 작품으로, 전자음악과 팝, 라이브러리 뮤직의 영향이 독특하게 섞여 있다.
+        </p><p>
+        곡은 짧고 단순한 구조를 가지고 있지만, <span class="en">Broadcast</span> 특유의 분위기가 강하게 드러난다. 반복되는 전자음과 
+        <span class="en">Trish Keenan</span>의 차분한 보컬은 명확한 이야기를 전달하기보다 하나의 풍경을 만들어낸다.
+        </p><p>
+        제목의 <span class="en">"Winter Now"</span>는 특정한 사건보다 계절이 주는 감각 자체를 암시한다. 겨울은 이 곡에서 차갑거나 극적인 이미지가 아니라, 모든 소리가 조금 멀어지고 흐려진 상태처럼 표현된다.
+        </p>
+      `
+    },
+
+    "spring": {
+      title: 'Spring',
+      artist: 'Saint Etienne - [Foxbase Alpha]',
+      cover: "./img/album/spring.jpg",
+      audio: "./audio/spring.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-green",
+      tags: ["urban", "melancholy", "Spectacle"],
+      text: `
+        <p>
+        <span class="en">Spring</span>은 <span class="en">Saint Etienne</span>의 데뷔 앨범 
+        <span class="en">Foxbase Alpha</span>에 수록된 곡이다. 
+        <span class="en">[Foxbase Alpha]</span>는 하우스, 인디 팝, 댄스 음악을 결합한 작품으로, 1990년대 영국 인디 팝을 대표하는 앨범 중 하나로 평가받는다.
+        </p><p>
+        <span class="en">Spring</span>은 <span class="en">Saint Etienne</span> 초기 작품 특유의 부드러운 멜로디와 샘플링 감각이 잘 드러나는 곡이다. 
+        <span class="en">Sarah Cracknell</span>의 담백한 보컬과 따뜻한 사운드는 곡 전체에 가벼운 낙관성을 부여한다.
+        </p><p>
+        제목 그대로 봄을 이야기하지만, 이 곡은 계절의 화려함보다 새로운 시작에 대한 기대를 담고 있다. 
+        <span class="en">Saint Etienne</span> 특유의 도시적 감수성이 녹아 있어 자연보다는 사람들의 일상과 거리의 풍경이 먼저 떠오른다.
+        </p>
+      `
+    },
+
+
+    "aiaigasa": {
+      title: '<span class="jp">相合傘</span>',
+      artist: 'Akiko Yano - [<span class="jp">いろはにこんぺいとう</span>]',
+      cover: "./img/album/aiaigasa.jpg",
+      audio: "./audio/aiaigasa.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-red",
+      tags: ["Spectacle"],
+      text: `
+        <p>
+        <span class="jp">相合傘</span>는 아키코 야노의 두 번째 앨범 
+        <span class="jp">いろはにこんぺいとう</span>에 수록된 곡이다. 이 앨범은 일본 팝, 재즈, 펑크, 포크가 자유롭게 뒤섞인 작품으로 평가받으며, 현재까지도 일본 음악사에서 중요한 위치를 차지한다.
+        </p><p>
+        제목인 <span class="jp">"相合傘"</span>은 일본어로 한 우산을 함께 쓰는 모습을 뜻한다. 일본에서는 오래전부터 연인이나 호감을 가진 두 사람을 상징하는 이미지로 사용되어 왔다.
+        </p><p>
+        곡은 사랑을 거창하게 이야기하지 않는다. 대신 아키코 야노 특유의 자유로운 피아노 연주와 장난기 있는 보컬을 통해, 누군가와 같은 방향으로 걷는 순간의 즐거움을 그려낸다. 음악은 재즈처럼 흐르다가도 어린아이 같은 순수함을 드러내며, 복잡한 감정보다는 움직임과 풍경을 남긴다.
+        </p>
+      `
+    },
+
+    "unifyingthought": {
+      title: 'Unifying Thought',
+      artist: 'Chanel Beads - [Your Day Will Come]',
+      cover: "./img/album/chanel.jpg",
+      audio: "./audio/unifyingthought.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-black",
+      tags: ["melancholy"],
+      text: `
+        <p>
+        <span class="en">Unifying Thought</span>는 
+        <span class="en">Chanel Beads</span>의 데뷔 앨범 
+        <span class="en">[Your Day Will Come]</span>에 수록된 곡이다. 
+        <span class="en">Chanel Beads</span>는 뉴욕 기반의 프로젝트로, 앰비언트, 인디 팝, 필드 레코딩, 실험음악을 결합한 독특한 사운드로 알려져 있다.
+        </p><p>
+        곡은 명확한 후렴구나 극적인 전개보다, 여러 소리의 층이 천천히 겹쳐지는 방식으로 진행된다. 보컬은 선명하게 전면에 나서기보다 악기들과 함께 흐르며 하나의 질감을 형성한다.
+        </p>
+      `
+    },
+
+    "songformessenger": {
+      title: 'Song For The Messenger',
+      artist: 'Chanel Beads - [Your Day Will Come]',
+      cover: "./img/album/chanel.jpg",
+      audio: "./audio/chanel.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-black",
+      tags: ["melancholy"],
+      text: `
+        <p>
+        <span class="en">Song for the Messenger</span>는 
+        <span class="en">[Your Day Will Come]</span>에 수록된 곡이다. 곡 제목은 "전달자를 위한 노래" 정도로 번역할 수 있지만, 
+        <span class="en">Chanel Beads</span>는 이 곡에 대해 구체적인 서사를 공개하지 않았다.
+        </p><p>
+        음악은 비교적 절제되어 있으며, 멀리서 들려오는 듯한 보컬과 공간감 있는 편곡이 중심이 된다. 명확한 메시지보다는 전달되기 전의 감정이나 분위기를 남기는 방식에 가깝다.
+        </p>
+      `
+    },
+
+    "policescanner": {
+      title: 'Police Scanner',
+      artist: 'Chanel Beads - [Your Day Will Come]',
+      cover: "./img/album/chanel.jpg",
+      audio: "./audio/chanel.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-black",
+      tags: ["melancholy"],
+      text: `
+        <p>
+        <span class="en">Police Scanner</span>는 
+        <span class="en">[Your Day Will Come]</span>에 수록된 곡으로, 제목은 경찰 무전 수신기를 의미한다. 
+        <span class="en">Chanel Beads</span>의 음악에서 자주 등장하는 일상적이고 구체적인 사물이 제목으로 사용된 사례 중 하나다.
+        </p><p>
+        곡은 주변 환경의 소음과 음악의 경계를 흐리는 방식으로 구성된다. 보컬과 악기가 분리되지 않고 섞여 있으며, 전체적으로 현실과 꿈의 중간 지대 같은 분위기를 만든다.
+        </p>
+      `
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 };
 
