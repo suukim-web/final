@@ -1678,7 +1678,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "songformessenger": {
       title: 'Song For The Messenger',
       artist: 'Chanel Beads - [Your Day Will Come]',
-      cover: "./img/album/chanel.jpg",
+      cover: "./img/album/chanel2.jpg",
       audio: "./audio/chanel.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-black",
