@@ -289,7 +289,7 @@ body.tag-open .tag-toggle span {
 .s85 { left: 29vw; top: 145vh; }
 .s86 { left: 60vw; top: 155vh; }
 .s87 { left: 60vw; top: 152vh; }
-.s88 { left: 65vw; top: 150vh; }
+.s88 { left: 38vw; top: 149vh; }
 .s89 { left: 65vw; top: 136vh; }
 .s90 { left: 60vw; top: 125vh; }
 .s91 { left: 48vw; top: 151vh; }
@@ -310,6 +310,10 @@ body.tag-open .tag-toggle span {
 .s106 { left: 3vw; top: 142vh; }
 .s107 { left: 64vw; top: 111vh;}
 .s108 { left: 78vw; top: 149vh; }
+.s109 { left: 5vw; top: 144vh; }
+.s110 { left: 37vw; top: 157vh; }
+.s111 { left: 61vw; top: 147vh; }
+.s112 { left: 79vw; top: 129vh; }
 
 
 
@@ -327,7 +331,6 @@ body.tag-open .tag-toggle span {
 .song-48 { left: 73vw; top: 154vh; }
 .song-49 { left: 77vw; top: 166vh; }
 .song-50 { left: 78vw; top: 143vh; }
-.song-51 { left: 79vw; top: 129vh; }
 
 .map-img {
   transition: filter 0.25s ease;
