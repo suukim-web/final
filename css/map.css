@@ -282,6 +282,19 @@ body.tag-open .tag-toggle span {
 .s78 { left: 68vw; top: 163vh; }
 .s79 { left: 75vw; top: 176vh; }
 .s80 { left: 30vw; top: 140vh; }
+.s81 { left: 33vw; top: 160vh; }
+.s82 { left: 25vw; top: 155vh; }
+.s83 { left: 51vw; top: 168vh; }
+.s84 { left: 53vw; top: 165vh; }
+.s85 { left: 29vw; top: 145vh; }
+.s86 { left: 60vw; top: 155vh; }
+.s87 { left: 60vw; top: 152vh; }
+.s88 { left: 65vw; top: 150vh; }
+.s89 { left: 65vw; top: 136vh; }
+
+
+
+
 
 
 
@@ -301,14 +314,7 @@ body.tag-open .tag-toggle span {
 
 .song-20 { left: 71vw; top: 64vh; }
 .song-29 { left: 73vw; top: 89vh; }
-.song-37 { left: 29vw; top: 145vh; }
-.song-39 { left: 53vw; top: 145vh; }
-
-.song-41 { left: 60vw; top: 152vh; }
-
 .song-42 { left: 68vw;  top: 108vh; }
-.song-44 { left: 65vw; top: 150vh; }
-
 .song-45 {
   left: 78vw;
   top: 149vh;
@@ -317,9 +323,6 @@ body.tag-open .tag-toggle span {
 .song-49 { left: 77vw; top: 166vh; }
 .song-50 { left: 78vw; top: 143vh; }
 .song-51 { left: 79vw; top: 129vh; }
-.song-53 { left: 53vw; top: 165vh; }
-.song-54 { left: 65vw; top: 136vh; }
-
 
 .map-img {
   transition: filter 0.25s ease;
@@ -372,11 +375,12 @@ body.tag-open .tag-circle {
   font-family: "Arbutus";
   left: 3vw;
   top: 45vh;
-  width: 28vw; height: 28vw;
+  width: 30vw; height: 30vw;
   color: #9D00FF;}
 .tag-sensual-curve {
-  left: 1vw;
-  top: 30vh;
+  font-size: 35px;
+  left: 2vw;
+  top: 20vh;
   width: 24vw;
   height: 24vw;
   color: #b02cff;
@@ -385,58 +389,115 @@ body.tag-open .tag-circle {
 .tag-radiant {
   font-family: "Michroma";
   left: 27vw;
-  top: 40vh;
+  top: 39vh;
   width: 35vw;
   height: 35vw;
   color: #ff6a00;}
-
-.tag-cool {
-  font-family: "Syne";
-  left: 10vw;
-  top: 94vh;
-  width: 34vw;
-  height: 34vw;
-  color: #0099FF;}
+.tag-radiant-curve {
+  font-size: 30px;
+  left: 32.5vw;
+  top: 6vh;
+  width: 27vw;
+  height: 35vw;
+  color: #ff6a00;
+  font-family: "Michroma", sans-serif;}
 
 .tag-spectacle {
   font-family: "Chokokutai";
-  left: 49vw;
-  top: 48vh;
-  width: 40vw;
-  height: 40vw;
+  left: 52vw;
+  top: 30vh;
+  width: 41vw;
+  height: 41vw;
   color: #FF2200;}
+.tag-spectacle-curve {
+  font-size: 28px;
+  left: 53vw;
+  top: 12vh;
+  width: 36vw;
+  height: 36vw;
+  color: #FF2200;
+  font-family: "Chokokutai", cursive;}
+
+.tag-cool {
+  font-family: "Syne";
+  left: 7vw;
+  top: 94vh;
+  width: 43vw;
+  height: 43vw;
+  color: #0099FF;}
+.tag-cool-curve {
+  font-size: 35px;
+  left: 2vw;
+  top: 95vh;
+  width: 30vw;
+  height: 30vw;
+  color: #0099FF;
+  font-family: "Syne", sans-serif;}
+
 
 .tag-melancholy {
   font-family: "Cutive Mono";
-  left: 43vw;
-  top: 110vh;
+  left: 46vw;
+  top: 100vh;
   width: 30vw;
   height: 30vw;
   color: #777;}
+.tag-melancholy-curve {
+  font-size: 33px;
+  left: 42vw;
+  top: 75vh;
+  width: 28vw;
+  height: 28vw;
+  color: #777;
+  font-family: "Cutive Mono", monospace;}
 
 .tag-urban {
   font-family: "Foldit";
   left: 70vw;
-  top: 110vh;
-  width: 20vw;
-  height: 20vw;
+  top: 95vh;
+  width: 22vw;
+  height: 22vw;
   color: #5f5a7a;}
+.tag-urban-curve {
+  font-size: 100px;
+  left: 71vw;
+  top: 74vh;
+  width: 18vw;
+  height: 18vw;
+  color: #5f5a7a;
+  font-family: "Foldit", sans-serif;}
 
 .tag-comforting {
   font-family: "work sans";
-  left: 56vw;
-  top: 147vh;
-  width: 40vw;
-  height: 40vw;
+  left: 60vw;
+  top: 140vh;
+  width: 31vw;
+  height: 31vw;
   color: #69d64e;}
+.tag-comforting-curve {
+  font-size: 25px;
+  left: 52vw;
+  top: 93vh;
+  width: 36vw;
+  height: 36vw;
+  color: #69d64e;
+  font-family: "Work Sans", sans-serif;}
 
 .tag-floating {
   font-family: "yuji boku";
-  left: 43vw;
-  top: 188vh;
+  left: 33vw;
+  top: 160vh;
   width: 32vw;
   height: 32vw;
   color: #00FFD4;}
+.tag-floating-curve {
+  font-size: 35px;
+  left: 32vw;
+  top: 127vh;
+  width: 30vw;
+  height: 30vw;
+  color: #00FFD4;
+  font-family: "Yuji Boku", serif;}
 
 
 .tag-curve {
@@ -451,64 +512,7 @@ body.tag-open .tag-curve {
 
 .tag-curve text {
   fill: currentColor;
-  font-size: 35px;
-  letter-spacing: 4px;}
-
-.tag-radiant-curve {
-  left: 29vw;
-  top: 11vh;
-  width: 27vw;
-  height: 35vw;
-  color: #ff6a00;
-  font-family: "Michroma", sans-serif;}
-
-.tag-cool-curve {
-  left: 9vw;
-  top: 68vh;
-  width: 30vw;
-  height: 30vw;
-  color: #0099FF;
-  font-family: "Syne", sans-serif;}
-
-.tag-spectacle-curve {
-  left: 51vw;
-  top: 28vh;
-  width: 36vw;
-  height: 36vw;
-  color: #FF2200;
-  font-family: "Chokokutai", cursive;}
-
-.tag-melancholy-curve {
-  left: 42vw;
-  top: 75vh;
-  width: 28vw;
-  height: 28vw;
-  color: #777;
-  font-family: "Cutive Mono", monospace;}
-
-.tag-urban-curve {
-  left: 67vw;
-  top: 98vh;
-  width: 18vw;
-  height: 18vw;
-  color: #5f5a7a;
-  font-family: "Foldit", sans-serif;}
-
-.tag-comforting-curve {
-  left: 57vw;
-  top: 110vh;
-  width: 36vw;
-  height: 36vw;
-  color: #69d64e;
-  font-family: "Work Sans", sans-serif;}
-
-.tag-floating-curve {
-  left: 41vw;
-  top: 155vh;
-  width: 30vw;
-  height: 30vw;
-  color: #00FFD4;
-  font-family: "Yuji Boku", serif;}
+  letter-spacing: 3px;}
 
 
 
