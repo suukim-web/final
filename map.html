@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./css/map.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alien+Block&family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Arbutus&family=Asta+Sans:wght@300..800&family=Bitcount+Single:wght@100..900&family=Bytesized&family=Chokokutai&family=Climate+Crisis:YEAR@1979&family=Cutive+Mono&family=Foldit:wght@100..900&family=Hedvig+Letters+Serif:opsz@12..24&family=Jacquarda+Bastarda+9&family=Michroma&family=Monoton&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Orbit&family=Shippori+Mincho&family=Smokum&family=Special+Elite&family=Syne:wght@400..800&family=Yuji+Boku&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alien+Block&family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Arbutus&family=Asta+Sans:wght@300..800&family=Bitcount+Single:wght@100..900&family=Bytesized&family=Chokokutai&family=Climate+Crisis:YEAR@1979&family=Cutive+Mono&family=Foldit:wght@100..900&family=Hedvig+Letters+Serif:opsz@12..24&family=Jacquarda+Bastarda+9&family=Monoton&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbit&family=Smokum&family=Special+Elite&family=Syne:wght@400..800&family=Yuji+Boku&display=swap" rel="stylesheet">
 </head>
 <body>
   <main class="page map-page">
@@ -158,47 +158,71 @@
 
 
 
-      <div class="tag-circle tag-sensual">
-  <span class="tag-label">Sensual</span>
-</div>
 
-<<div class="tag-circle tag-radiant"></div>
-
-<svg class="tag-curve tag-radiant-curve" viewBox="0 0 500 500">
+<div class="tag-circle tag-sensual"></div>
+<svg class="tag-curve tag-sensual-curve" viewBox="0 0 500 500">
   <defs>
-    <path id="radiantCurve" d="M 55 270 A 195 195 0 0 1 445 270" />
+    <path id="sensualCurve" d="M 90 350 A 210 210 0 0 1 250 60" />
   </defs>
-
-  <text>
-    <textPath href="#radiantCurve" startOffset="18%">
-      RADIANT
-    </textPath>
-  </text>
+  <text><textPath href="#sensualCurve" startOffset="5%">sensual</textPath></text>
 </svg>
 
-<div class="tag-circle tag-cool">
-  <span class="tag-label">Cool</span>
-</div>
+<div class="tag-circle tag-radiant"></div>
+<svg class="tag-curve tag-radiant-curve" viewBox="0 0 500 500">
+  <defs>
+    <path id="radiantCurve" d="M 50 300 A 230 230 0 0 1 450 300" />
+  </defs>
+  <text><textPath href="#radiantCurve" startOffset="18%">RADIANT</textPath></text>
+</svg>
 
-<div class="tag-circle tag-spectacle">
-  <span class="tag-label">Spectacle</span>
-</div>
+<div class="tag-circle tag-cool"></div>
+<svg class="tag-curve tag-cool-curve" viewBox="0 0 500 500">
+  <defs>
+    <path id="coolCurve" d="M 70 330 A 210 210 0 0 1 430 330" />
+  </defs>
+  <text><textPath href="#coolCurve" startOffset="8%">cool</textPath></text>
+</svg>
 
-<div class="tag-circle tag-melancholy">
-  <span class="tag-label">Melancholy</span>
-</div>
+<div class="tag-circle tag-spectacle"></div>
+<svg class="tag-curve tag-spectacle-curve" viewBox="0 0 500 500">
+  <defs>
+    <path id="spectacleCurve" d="M 70 230 A 200 200 0 0 1 430 230" />
+  </defs>
+  <text><textPath href="#spectacleCurve" startOffset="18%">Spectacle</textPath></text>
+</svg>
 
-<div class="tag-circle tag-urban">
-  <span class="tag-label">Urban</span>
-</div>
+<div class="tag-circle tag-melancholy"></div>
+<svg class="tag-curve tag-melancholy-curve" viewBox="0 0 500 500">
+  <defs>
+    <path id="melancholyCurve" d="M 90 360 A 210 210 0 0 1 410 360" />
+  </defs>
+  <text><textPath href="#melancholyCurve" startOffset="10%">melancholy</textPath></text>
+</svg>
 
-<div class="tag-circle tag-comforting">
-  <span class="tag-label">Comforting</span>
-</div>
+<div class="tag-circle tag-urban"></div>
+<svg class="tag-curve tag-urban-curve" viewBox="0 0 500 500">
+  <defs>
+    <path id="urbanCurve" d="M 80 330 A 180 180 0 0 1 420 330" />
+  </defs>
+  <text><textPath href="#urbanCurve" startOffset="18%">urban</textPath></text>
+</svg>
 
-<div class="tag-circle tag-floating">
-  <span class="tag-label">Floating</span>
-</div>
+<div class="tag-circle tag-comforting"></div>
+<svg class="tag-curve tag-comforting-curve" viewBox="0 0 500 500">
+  <defs>
+    <path id="comfortingCurve" d="M 70 340 A 220 220 0 0 1 430 340" />
+  </defs>
+  <text><textPath href="#comfortingCurve" startOffset="5%">comforting</textPath></text>
+</svg>
+
+<div class="tag-circle tag-floating"></div>
+<svg class="tag-curve tag-floating-curve" viewBox="0 0 500 500">
+  <defs>
+    <path id="floatingCurve" d="M 90 340 A 210 210 0 0 1 410 340" />
+  </defs>
+  <text><textPath href="#floatingCurve" startOffset="10%">floating</textPath></text>
+</svg>
+
     </section>
 
     <div class="detail-overlay">
