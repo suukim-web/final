@@ -1532,9 +1532,9 @@ document.addEventListener("DOMContentLoaded", function () {
       tags: ["melancholy", "urban"],
       text: `
         <p>
-        ㅇ
+        .
         </p><p>
-        ㅇ
+        .
         </p>
       `
     },
@@ -1549,9 +1549,9 @@ document.addEventListener("DOMContentLoaded", function () {
       tags: ["melancholy", "urban"],
       text: `
         <p>
-        ㅇ
+        .
         </p><p>
-        ㅇ
+        .
         </p>
       `
     },
