@@ -893,7 +893,7 @@ document.addEventListener("DOMContentLoaded", function () {
       cover: "./img/album/yumi.jpg",
       link: "special-wanting-you.html",
       overlayClass: "overlay-skyblue",
-      tags: ["Radiant", "Spectacle"],
+      tags: ["cool"],
       text: `
         <p>
         음원은 다음 링크로 이동하셔서 들을 수 있습니다.
@@ -916,7 +916,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/nobodyelse.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-skyblue",
-      tags: ["Radiant", "cool"],
+      tags: ["cool", "Radiant"],
       text: `
         <p>
         <span class="en">Nobody Else</span>는 1980년대 마츠토야 유미의 도시적이며 낭만적인 팝 감각이 잘 드러나는 곡 중 하나다. 사랑을 주제로 하지만, 극적인 고백이나 이별보다는 특정한 한 사람을 향한 집중된 감정을 담고 있다.
@@ -991,7 +991,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/morningflight.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-skyblue",
-      tags: ["Radiant", "Spectacle"],
+      tags: ["cool", "Radiant"],
       text: `
         <p>
         <span class="en">Morning Flight</span>는 
