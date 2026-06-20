@@ -1472,7 +1472,7 @@ document.addEventListener("DOMContentLoaded", function () {
       audio: "./audio/jungleflower.mp3",
       link: "special-wanting-you.html",
       overlayClass: "overlay-skyblue",
-      tags: ["Spectacle"],
+      tags: ["cool"],
       text: `
         <p>
         <span class="en">Jungle Flower</span>는 일본 그룹 <span class="jp">ウォーターメロングループ</span><span class="en">(Water Melon Group)</span>의 곡으로, 1970~80년대 일본의 재즈, 펑크, 소울, 라틴 음악이 혼합된 분위기를 보여준다. 
