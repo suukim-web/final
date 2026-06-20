@@ -1918,6 +1918,54 @@ document.addEventListener("DOMContentLoaded", function () {
       `
     },
 
+    "ashestoashes": {
+      title: 'Ashes To Ashes',
+      artist: 'David Bowie - [Scary Monsters (And Super Creeps)]',
+      cover: "./img/album/ashestoashes.jpg",
+      audio: "./audio/ashestoashes.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-orange",
+      tags: ["Spectacle"],
+      text: `
+        <p>
+        <span class="en">Ashes to Ashes</span>는 
+        <span class="en">[Scary Monsters (and Super Creeps)]</span>의 대표곡 중 하나이며, 
+        <span class="en">Bowie</span>가 1969년 발표한 자신의 캐릭터 
+        <span class="en">Major Tom</span>을 다시 등장시킨 노래로 유명하다.
+        </p><p>
+        가사에서 <span class="en">Bowie</span>는 과거의 우주비행사 
+        <span class="en">Major Tom</span>을 다시 불러내지만, 이번에는 영웅이 아니라 길을 잃은 인물로 묘사한다. 많은 평론가들은 이 곡을 
+        <span class="en">Bowie</span> 자신의 과거와 약물 사용 시절을 돌아보는 작품으로 해석해 왔다. 뮤직비디오는 당시로서는 엄청난 제작비가 투입된 작품으로 알려져 있으며, 오늘날에도 1980년대 뮤직비디오 역사에서 가장 영향력 있는 영상 중 하나로 평가된다.
+        </p><p>
+        음악적으로는 신스팝, 아트 록, 뉴웨이브가 결합되어 있으며, 밝은 멜로디와 달리 어딘가 슬프고 초현실적인 분위기를 품고 있다.
+        </p>
+      `
+    },
+
+    "fashion": {
+      title: 'Fashion',
+      artist: 'David Bowie - [Scary Monsters (And Super Creeps)]',
+      cover: "./img/album/ashestoashes.jpg",
+      audio: "./audio/fashion.mp3",
+      link: "special-wanting-you.html",
+      overlayClass: "overlay-red",
+      tags: ["Spectacle"],
+      text: `
+        <p>
+        <span class="en">Fashion</span>은 
+        <span class="en">David Bowie</span>의 앨범 
+        <span class="en">[Scary Monsters (and Super Creeps)]</span>에 수록된 곡이다. 1980년에 발표된 이 곡은 당시 런던의 패션 문화와 나이트라이프를 배경으로 하며, 
+        <span class="en">Bowie</span>의 가장 유명한 뉴웨이브 시기 작품 중 하나로 꼽힌다.
+        </p><p>
+        겉으로 보면 패션과 유행을 찬양하는 노래처럼 들리지만, 실제로는 훨씬 아이러니한 곡이다. 
+        <span class="en">Bowie</span>는 반복적으로 "Fashion!"을 외치면서도 사람들이 유행을 맹목적으로 따라가는 모습을 풍자한다.
+        </p><p>
+        음악적으로는 펑크<span class="en">(Funk)</span>, 뉴웨이브, 댄스 음악이 결합되어 있다. 날카로운 기타 리프와 강한 리듬이 곡 전체를 끌고 가며, 
+        <span class="en">Bowie</span> 특유의 거리감 있는 보컬이 냉소적인 분위기를 만든다.
+        </p>
+      `
+    },
+
 
 
 
