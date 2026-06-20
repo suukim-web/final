@@ -142,6 +142,7 @@ html, body {
 
 .track.is-focus {
   filter: brightness(1.25);
+  font-size: clamp(22px, 3vw, 42px);
   z-index: 80;
   opacity: 1;
   z-index: 100;}
@@ -395,17 +396,14 @@ body.detail-open .detail-panel {
   .big-vinyl {
     left: -35vw;
     width: 620px;
-    height: 620px;
-  }
+    height: 620px;}
 
   .big-cover {
     width: 300px;
-    height: 300px;
-  }
+    height: 300px;}
 
   .detail-panel {
-    width: 92vw;
-  }
+    width: 92vw;}
 }
 
 .playlist-texts {
